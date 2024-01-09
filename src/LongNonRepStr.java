@@ -9,10 +9,13 @@ public class LongNonRepStr {
         int i=0;
         while(i<s.length()){
             char ch=s.charAt(i);
-            if(!list.contains(ch)) list.add(ch);
-            else i=i+1;
-            System.out.println(list);
-            i++;
+            if(!list.contains(ch)) {
+                list.add(ch);
+            }
+            else {
+                break;
+            }
+            i+=1;
         }
         System.out.println(list.size());
     }
