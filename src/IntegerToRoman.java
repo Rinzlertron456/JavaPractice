@@ -20,7 +20,7 @@ public class IntegerToRoman {
         RomanValues.put("C", 100);
         RomanValues.put("D", 500);
         RomanValues.put("M", 1000);
-        int Number = 21, count = 0, temp = Number, rev = 0;
+        int Number = 675, count = 0, temp = Number, rev = 0;
         for (Map.Entry<String, Integer> entry : RomanValues.entrySet()) {
             if (entry.getValue().equals(Number)) System.out.println(entry.getKey());
         }
