@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="push">
-      <change afterPath="$PROJECT_DIR$/src/ArrMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RemoveDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/IntegerToRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/IntegerToRoman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LongestPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LongestPrefix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntegerToRoman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanToInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LongestPrefix">
+  <component name="RunManager" selected="Application.RemoveDuplicates">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -76,13 +74,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindKthElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindKthElement" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HillWeight" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HillWeight" />
       <module name="JavaPractice" />
@@ -94,13 +85,6 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="IntegerToRoman" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongNonRepStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongNonRepStr" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,6 +104,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveDuplicates" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RomanToInteger" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumeetNumber" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SumeetNumber" />
       <module name="JavaPractice" />
@@ -133,19 +131,19 @@
       <item itemvalue="Application.SumeetNumber" />
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
+      <item itemvalue="Application.RemoveDuplicates" />
+      <item itemvalue="Application.RomanToInteger" />
       <item itemvalue="Application.ArrMissingNumber" />
       <item itemvalue="Application.LongestPrefix" />
       <item itemvalue="Application.NumberToWord" />
-      <item itemvalue="Application.FindKthElement" />
-      <item itemvalue="Application.LongNonRepStr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.LongestPrefix" />
         <item itemvalue="Application.ArrMissingNumber" />
         <item itemvalue="Application.NumberToWord" />
-        <item itemvalue="Application.LongNonRepStr" />
-        <item itemvalue="Application.FindKthElement" />
       </list>
     </recent_temporary>
   </component>

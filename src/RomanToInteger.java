@@ -17,7 +17,7 @@ public class RomanToInteger {
         RomanValues.put("C",100);
         RomanValues.put("D",500);
         RomanValues.put("M",1000);
-        String input="MMMDCCXCIV";
+        String input="XVIII";
         int res=0;
         for(Map.Entry<String,Integer> entry:RomanValues.entrySet()){
             if(input.equals(entry.getKey())){
