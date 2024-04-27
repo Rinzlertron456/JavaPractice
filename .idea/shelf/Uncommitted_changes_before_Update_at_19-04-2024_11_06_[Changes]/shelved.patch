@@ -1,0 +1,1288 @@
+Index: src/ParityWordRev.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ParityWordRev.java b/src/ParityWordRev.java
+new file mode 100644
+--- /dev/null	(date 1706862766032)
++++ b/src/ParityWordRev.java	(date 1706862766032)
+@@ -0,0 +1,59 @@
++public class ParityWordRev {
++    public static void main(String[] args){
++        String line="H4i He3llo, How are you?";
++        String[] words=line.split(" ");
++        for (int i=0;i<words.length;i++) {
++            String word=words[i];
++            String rev="";
++            for (int j = 0; j < word.length(); j++) {
++                char ch=word.charAt(j);
++                if(word.length()%2!=0){
++                    if(j%2!=0){
++                        if((ch>='a'&&ch<='z')){
++                            if(ch+word.length()>='z') rev+='z';
++                            else rev+=(char)(ch+word.length());
++                        }
++                        else if((ch>='A'&&ch<='Z')){
++                            if(ch+word.length()>='Z') rev+='Z';
++                            else rev+=(char)(ch+word.length());
++                        }
++                        else rev+=ch;
++                    }
++                    else rev+=ch;
++                }
++                else if(word.length()%2==0){
++                    if(j%2==0){
++                        if((ch>='a'&&ch<='z')){
++                            if(ch+word.length()>='z') rev+='z';
++                            else rev+=(char)(ch+word.length());
++                        }
++                        else if((ch>='A'&&ch<='Z')){
++                            if(ch+word.length()>='Z') rev+='Z';
++                            else rev+=(char)(ch+word.length());
++                        }
++                        else rev+=ch;
++                    }
++                    else rev+=ch;
++                }
++            }
++            StringBuilder r=new StringBuilder();
++            for (int j = rev.length()-1; j >= 0; j--) {
++                char ch=rev.charAt(j);
++                if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z')) r.append(ch);
++            }
++            for (int j = 0; j < word.length(); j++) {
++                char ch=word.charAt(j);
++                if(!((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))) r.insert(j,ch);
++            }
++//            String rev1="";
++//            for (int j = rev.length()-1; j >= 0; j--) {
++//                char ch=rev.charAt(j);
++//                rev1+=ch;
++//            }
++            words[i]=r.toString();
++        }
++        for (String word:words) {
++            System.out.print(word+" ");
++        }
++    }
++}
+Index: src/NumberToWord.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/NumberToWord.java b/src/NumberToWord.java
+new file mode 100644
+--- /dev/null	(date 1706862665382)
++++ b/src/NumberToWord.java	(date 1706862665382)
+@@ -0,0 +1,103 @@
++import java.util.HashMap;
++
++public class NumberToWord {
++    public static void main(String[] args) {
++        int num=104884157,len=0,temp=num,i=0;
++        String res="";
++        HashMap<Integer,String> numwords=new HashMap<>();
++        numwords.put(1,"one");
++        numwords.put(2,"two");
++        numwords.put(3,"three");
++        numwords.put(4,"four");
++        numwords.put(5,"five");
++        numwords.put(6,"six");
++        numwords.put(7,"seven");
++        numwords.put(8,"eight");
++        numwords.put(9,"nine");
++        numwords.put(10,"ten");
++        numwords.put(11,"eleven");
++        numwords.put(12,"twelve");
++        numwords.put(13,"thirteen");
++        numwords.put(14,"fourteen");
++        numwords.put(15,"fifteen");
++        numwords.put(16,"sixteen");
++        numwords.put(17,"seventeen");
++        numwords.put(18,"eighteen");
++        numwords.put(19,"nineteen");
++        numwords.put(20,"twenty");
++        numwords.put(30,"thirty");
++        numwords.put(40,"forty");
++        numwords.put(50,"fifty");
++        numwords.put(60,"sixty");
++        numwords.put(70,"seventy");
++        numwords.put(80,"eighty");
++        numwords.put(90,"ninety");
++        numwords.put(100,"hundred");
++        numwords.put(1000,"thousand");
++        numwords.put(100000,"lakh");
++        numwords.put(10000000,"crore");
++        while(temp>0){
++            temp/=10;
++            len++;
++        }
++        int[] arr=new int[len];
++        while (num>0){
++            arr[i]=num%10;
++            num/=10;
++            i++;
++        }
++        for (int j = 0; j < len; j++) {
++            System.out.println(arr[j]);
++        }
++        for (int j = len-1; j >= 0; j--) {
++            if(j>3&&(j==4||j==6||j==8)&&arr[j]!=0){
++                if(arr[j]==0) res+="";
++                else if(arr[j]!=0&&arr[j-1]==0){
++                    System.out.println(numwords.get(arr[j]*(int)Math.pow(10,1))+" "+numwords.get((int)Math.pow(10,j-1)));
++                    res+=numwords.get(arr[j]*(int)Math.pow(10,1))+" "+numwords.get((int)Math.pow(10,j-1))+" ";
++                }
++                else if(arr[j]==1){
++                    System.out.println(numwords.get(Integer.parseInt(arr[j]+""+arr[j-1])));
++                    res+=numwords.get(Integer.parseInt(arr[j]+""+arr[j-1]))+" "+numwords.get((int)Math.pow(10,j-1))+" ";
++                    j-=1;
++                }
++                else{
++                    System.out.println(numwords.get(arr[j]*(int)Math.pow(10,1)));
++                    res+=numwords.get(arr[j]*(int)Math.pow(10,1))+" ";
++                }
++            }
++            else if(j>=2){
++                if(arr[j]==0) res+="";
++                else{
++                    System.out.println(numwords.get(arr[j])+" "+numwords.get((int)Math.pow(10,j)));
++                    res+=numwords.get(arr[j])+" "+numwords.get((int)Math.pow(10,j))+" ";
++                }
++            }
++            else if (j==1){
++                if(arr[j]==0) res+=" ";
++                else if(len==2){
++                    res+=numwords.get(arr[j]*10)+" ";
++                }
++                else if(arr[j]==1){
++                    res+="and "+numwords.get(Integer.parseInt(arr[j]+""+arr[j-1]));
++                    break;
++                }
++                else{
++                    System.out.println("and "+numwords.get(arr[j]*(int)Math.pow(10,j)));
++                    res+="and "+numwords.get(arr[j]*(int)Math.pow(10,j))+" ";
++                }
++            }
++            else{
++                if(arr[j]==0) res+="";
++                else if(arr[1]==0){
++                    res+="and "+numwords.get(arr[j]*(int)Math.pow(10,j));
++                }
++                else{
++                    System.out.println(numwords.get(arr[j]*(int)Math.pow(10,j)));
++                    res+=numwords.get(arr[j]*(int)Math.pow(10,j));
++                }
++            }
++        }
++        System.out.println(res);
++    }
++}
+Index: src/PanagramCheck.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/PanagramCheck.java b/src/PanagramCheck.java
+new file mode 100644
+--- /dev/null	(date 1706856651254)
++++ b/src/PanagramCheck.java	(date 1706856651254)
+@@ -0,0 +1,27 @@
++import java.util.*;
++public class PanagramCheck {
++    public static void main(String[] args) {
++        //Solution 1
++//        String s = "Bawds jog, flick quartz, vex nymph";
++//        ArrayList<Character> alphabets=new ArrayList<>();
++//        if((s.charAt(i)-'a' >=0 && s.charAt(i)-'a'<=25)&&(!alphabets.contains(s.charAt(i)))){
++//            alphabets.add(s.charAt(i));
++//        }
++//        //System.out.println(alphabets);
++//        if(alphabets.size()==26) System.out.println(1);
++//        else System.out.println(0);
++        //Solution 2
++        String s = "A QUICK BROWN FOX JUMPS OVER THE LAZY LITTLE DOG";
++        ArrayList<Character> alphabets = new ArrayList<>();
++        s = s.toLowerCase();
++        for(int i=0; i<s.length(); i++){
++            if((s.charAt(i)-'a' >=0 && s.charAt(i)-'a'<=25)&&(!alphabets.contains(s.charAt(i)))){
++                alphabets.add(s.charAt(i));
++            }
++            if(alphabets.size()==26){
++                System.out.println(1);
++            }
++        }
++        System.out.println(0);
++    }
++}
+Index: src/ReplaceArrElementWithRank.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ReplaceArrElementWithRank.java b/src/ReplaceArrElementWithRank.java
+new file mode 100644
+--- /dev/null	(date 1706862851448)
++++ b/src/ReplaceArrElementWithRank.java	(date 1706862851448)
+@@ -0,0 +1,27 @@
++import java.sql.Array;
++import java.util.*;
++
++public class ReplaceArrElementWithRank {
++    public static void main(String[] args) {
++        int N=5,k=1;
++        int[] a={1, 2, 6, 9, 2};
++        ArrayList<Integer> arr=new ArrayList<>();
++        for (int num:a) {
++            arr.add(num);
++        }
++        ArrayList<Integer> order=new ArrayList<>(arr);
++        Collections.sort(order);
++        HashMap<Integer,Integer> ranks=new HashMap<>();
++        for (int i = 0; i < N; i++) {
++            if(ranks.containsKey(order.get(i))) ranks.put(order.get(i), ranks.get(order.get(i)));
++            else{
++                ranks.put(order.get(i),k);
++                k++;
++            }
++        }
++        for (int i = 0; i < N; i++) {
++            arr.set(i, ranks.get(arr.get(i)));
++        }
++        System.out.println(arr);
++    }
++}
+Index: src/RemoveDuplicates.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/RemoveDuplicates.java b/src/RemoveDuplicates.java
+new file mode 100644
+--- /dev/null	(date 1706862817307)
++++ b/src/RemoveDuplicates.java	(date 1706862817307)
+@@ -0,0 +1,16 @@
++import java.util.ArrayList;
++
++public class RemoveDuplicates {
++    public static void main(String[] args) {
++        String S="gfg",nondup="";
++        ArrayList<Character> chars=new ArrayList<>();
++        for (int i = 0; i < S.length(); i++) {
++            char ch=S.charAt(i);
++            if(!chars.contains(ch)) chars.add(ch);
++        }
++        for (char ch:chars) {
++            nondup+=ch;
++        }
++        System.out.println(nondup);
++    }
++}
+Index: src/ReverseArrorString.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ReverseArrorString.java b/src/ReverseArrorString.java
+new file mode 100644
+--- /dev/null	(date 1706862907046)
++++ b/src/ReverseArrorString.java	(date 1706862907046)
+@@ -0,0 +1,25 @@
++public class ReverseArrorString {
++    public static void main(String[] args){
++        int arr[] = {4, 5, 1, 2};
++        String str="ytfdagvhbusvcga",rev="";
++        int[] res=new int[arr.length];
++        int k=0;
++        for (int i = arr.length-1; i >= 0; i--) {
++            res[k]=arr[i];
++            k++;
++        }
++        for (int i = 0; i < res.length; i++) {
++            arr[i]=res[i];
++        }
++        for (int num:arr) {
++            System.out.print(num+" ");
++        }
++        System.out.println();
++        for (int i = str.length()-1; i >= 0; i--) {
++            char ch=str.charAt(i);
++            rev+=ch;
++        }
++        str=rev;
++        System.out.println(str);
++    }
++}
+Index: src/ReverseArray.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ReverseArray.java b/src/ReverseArray.java
+new file mode 100644
+--- /dev/null	(date 1706862880340)
++++ b/src/ReverseArray.java	(date 1706862880340)
+@@ -0,0 +1,27 @@
++import java.util.ArrayList;
++
++public class ReverseArray {
++    public static void main(String[] args) {
++        int N=10,k=N-1;
++        String line="11 4 37 80 3 32 24 1 23 81";
++        int[] arr=new int[N];
++        for (int i = 0; i < N; i++) {
++            arr[i]=Integer.parseInt(line.split(" ")[i]);
++        }
++        for (int i = 0; i < N; i++) {
++            System.out.print(arr[i]+" ");
++        }
++        ArrayList<Integer> list=new ArrayList<>();
++        for (int i = 0; i < N; i++) {
++            list.add(arr[i]);
++        }
++        for (int i = 0; i < arr.length; i++) {
++            arr[i]=list.get(k);
++            k--;
++        }
++        System.out.println("\n");
++        for (int i = 0; i < N; i++) {
++            System.out.print(arr[i]+" ");
++        }
++    }
++}
+Index: src/RightRotateArr.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/RightRotateArr.java b/src/RightRotateArr.java
+new file mode 100644
+--- /dev/null	(date 1706862974699)
++++ b/src/RightRotateArr.java	(date 1706862974699)
+@@ -0,0 +1,23 @@
++public class RightRotateArr {
++    public static void main(String[] args){
++        int[] numbers={1,2,3,4,5};
++        int rotate=2,count=0,temp=rotate,len=numbers.length;
++        int[] res=new int[numbers.length];
++        while(rotate>len){
++            rotate-=len;
++            temp=rotate;
++        }
++        while (count<rotate){
++            res[count]=numbers[Math.abs(numbers.length-temp)];
++            count++;
++            temp--;
++        }
++        for (int i = 0; i < numbers.length-rotate; i++) {
++            res[count]=numbers[i];
++            count++;
++        }
++        for (int num: res) {
++            System.out.print(num+" ");
++        }
++    }
++}
+Index: src/ReveserSubArray.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ReveserSubArray.java b/src/ReveserSubArray.java
+new file mode 100644
+--- /dev/null	(date 1706862938445)
++++ b/src/ReveserSubArray.java	(date 1706862938445)
+@@ -0,0 +1,24 @@
++import java.util.ArrayList;
++
++public class ReveserSubArray {
++    public static void main(String[] args) {
++        int m=3,N=9,sublen=N-m-1;
++        int[] a={10, 4, 5, 2, 3, 6, 1, 3, 6};
++        int[] subarr=new int[sublen];
++        ArrayList<Integer> arr=new ArrayList<>();
++        for (int i = 0; i < N; i++) {
++            arr.add(a[i]);
++        }
++        int k=0;
++        for (int i = m+1; i < N; i++) {
++            subarr[k]=arr.get(i);
++            k++;
++        }
++        for (int i = sublen-1; i >=0; i--) {
++            System.out.println(subarr[i]);
++            arr.set(m+1,subarr[i]);
++            m++;
++        }
++        System.out.println(arr);
++    }
++}
+Index: src/RomanToInteger.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/RomanToInteger.java b/src/RomanToInteger.java
+new file mode 100644
+--- /dev/null	(date 1706867659683)
++++ b/src/RomanToInteger.java	(date 1706867659683)
+@@ -0,0 +1,65 @@
++import java.util.*;
++
++public class RomanToInteger {
++    public static void main(String[] args){
++        HashMap<String,Integer> RomanValues=new HashMap<>();
++        RomanValues.put("I",1);
++        RomanValues.put("II",2);
++        RomanValues.put("III",3);
++        RomanValues.put("IV",4);
++        RomanValues.put("V",5);
++        RomanValues.put("VI",6);
++        RomanValues.put("VII",7);
++        RomanValues.put("VIII",8);
++        RomanValues.put("IX",9);
++        RomanValues.put("X",10);
++        RomanValues.put("L",50);
++        RomanValues.put("C",100);
++        RomanValues.put("D",500);
++        RomanValues.put("M",1000);
++        String input="XVIII";
++        int res=0;
++        for(Map.Entry<String,Integer> entry:RomanValues.entrySet()){
++            if(input.equals(entry.getKey())){
++                System.out.print(entry.getValue());
++                break;
++            }
++        }
++        ArrayList<Integer> list=new ArrayList<>();
++        for (int i = 0; i < input.length(); i++) {
++            char ch=input.charAt(i);
++            for(Map.Entry<String,Integer> entry:RomanValues.entrySet()){
++                if((ch+"").equals(entry.getKey())) list.add(entry.getValue());
++            }
++        }
++        System.out.println(list);
++        int prev=0;
++        for (int num:list) {
++            if(res<=num&&res==0){
++                res+=num;
++                prev=res;
++            }
++            else if(num<prev&&(num<100)){
++                res=res-num;
++                prev=num;
++            }
++            else if(num<prev&&(num>=100)){
++                res=res+num;
++                prev=num;
++            }
++            else if(num==prev){
++                res=res+num;
++                prev=num;
++            }
++            else if(num>prev&&(num<5)){
++                res=num-res;
++                prev=num;
++            }
++            else if(num>prev&&(num>=5)){
++                res=num+res;
++                prev=num;
++            }
++        }
++        System.out.println(res);
++    }
++}
+Index: src/StrAlphaRevCharRetain.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/StrAlphaRevCharRetain.java b/src/StrAlphaRevCharRetain.java
+new file mode 100644
+--- /dev/null	(date 1706863174109)
++++ b/src/StrAlphaRevCharRetain.java	(date 1706863174109)
+@@ -0,0 +1,29 @@
++import java.util.ArrayList;
++
++public class StrAlphaRevCharRetain {
++    public static void main(String[] args){
++        String sentence="H1i! Hello!! How are You?";
++        String[] words=sentence.split(" ");
++        for (String word:words) {
++            System.out.println(word);
++        }
++        for(int i=0;i<words.length;i++) {
++            String word=words[i],rev="";
++            StringBuilder r=new StringBuilder();
++            ArrayList<Character> chararr=new ArrayList<>();
++            for (int j = word.length()-1; j >=0; j--) {
++                char ch=word.charAt(j);
++                if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z')) r.append(ch);
++            }
++            for (int j = 0; j < word.length(); j++) {
++                char ch=word.charAt(j);
++                if(!((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))) r.insert(j,ch);
++            }
++            words[i]=r.toString();
++        }
++        System.out.println("Reversed words");
++        for (String word:words) {
++            System.out.println(word);
++        }
++    }
++}
+Index: src/SmallandSecSmallEleArr.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/SmallandSecSmallEleArr.java b/src/SmallandSecSmallEleArr.java
+new file mode 100644
+--- /dev/null	(date 1706863099251)
++++ b/src/SmallandSecSmallEleArr.java	(date 1706863099251)
+@@ -0,0 +1,16 @@
++import java.util.ArrayList;
++import java.util.Arrays;
++
++public class SmallandSecSmallEleArr {
++    public static void main(String[] args){
++        int count=0;
++        int  arr[] = {1,2,1,3,6,7};
++        Arrays.sort(arr);
++        ArrayList<Integer> list=new ArrayList<>();
++        for(int i=0;i<arr.length;i++){
++            if(!list.contains(arr[i])) list.add(arr[i]);
++        }
++        System.out.println(list);
++        System.out.print(list.get(0)+" "+list.get(1));
++    }
++}
+Index: src/StringEndNum.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/StringEndNum.java b/src/StringEndNum.java
+new file mode 100644
+--- /dev/null	(date 1706863209950)
++++ b/src/StringEndNum.java	(date 1706863209950)
+@@ -0,0 +1,9 @@
++public class StringEndNum {
++    public static void main(String[] args){
++        String str="geek5";
++        int len=str.charAt(str.length()-1)-'0';
++        str=str.substring(0,str.length()-1);
++        if(str.length()==len) System.out.println(1);
++        else System.out.println(0);
++    }
++}
+Index: src/EncodeMessage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/EncodeMessage.java b/src/EncodeMessage.java
+new file mode 100644
+--- /dev/null	(date 1707994344095)
++++ b/src/EncodeMessage.java	(date 1707994344095)
+@@ -0,0 +1,21 @@
++import java.util.HashMap;
++import java.util.Map;
++
++public class EncodeMessage {
++    public static void main(String[] args) {
++        String message="abbdcaas";
++        HashMap<Character,Integer> charfreq=new HashMap<>();
++//        for (int i = 0; i < message.length(); i++) {
++//            char ch=message.charAt(i);
++//            if(!charfreq.containsKey(ch)) charfreq.put(ch,1);
++//            else charfreq.put(ch,charfreq.get(ch)+1);
++//        }
++        for (int i = 0; i < message.length(); i++) {
++            char
++        }
++        for (Map.Entry<Character,Integer> entry:charfreq.entrySet()){
++            System.out.print(entry.getKey()+" "+entry.getValue());
++            System.out.print("\n");
++        }
++    }
++}
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 645f3506aa508875f6a6dcd5261afe8222755b02)
++++ b/.idea/misc.xml	(date 1706791251666)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-21 (2)" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/ArrMissingNumber.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ArrMissingNumber.java b/src/ArrMissingNumber.java
+new file mode 100644
+--- /dev/null	(date 1706862058463)
++++ b/src/ArrMissingNumber.java	(date 1706862058463)
+@@ -0,0 +1,15 @@
++import java.util.ArrayList;
++
++public class ArrMissingNumber {
++    public static void main(String[] args) {
++        int n=5,output,arrsum=0,totalsum=0;
++        int[] array={1,2,3,5};
++        ArrayList<Integer> list=new ArrayList<>();
++        for (int i = 0; i < n-1; i++) {
++            arrsum+=array[i];
++        }
++        totalsum=n*(n+1)/2;
++        output=totalsum-arrsum;
++        System.out.println(output);
++    }
++}
+Index: src/BinarySearch.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/BinarySearch.java b/src/BinarySearch.java
+new file mode 100644
+--- /dev/null	(date 1706862165637)
++++ b/src/BinarySearch.java	(date 1706862165637)
+@@ -0,0 +1,27 @@
++import java.util.ArrayList;
++import java.util.Arrays;
++import java.util.List;
++
++public class BinarySearch {
++    public static void main(String[] args) {
++        int[] arr={1,3,7,9,11,12,45};
++        int mid=0,target=3,l=0,r=arr.length-1;
++        if(target==-1){
++            System.out.println(-1);
++        }
++        while(l<=r){
++            mid=l+(r-1)/2;
++            if(arr[mid]==target){
++                System.out.println(mid);
++                break;
++            }
++            if(arr[mid]<target){
++                l=mid+1;
++            }
++            else{
++                r=mid-1;
++            }
++        }
++        if(l>r) System.out.println(-1);
++    }
++}
+Index: src/AlphPalRem.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/AlphPalRem.java b/src/AlphPalRem.java
+new file mode 100644
+--- /dev/null	(date 1706858127992)
++++ b/src/AlphPalRem.java	(date 1706858127992)
+@@ -0,0 +1,21 @@
++public class AlphPalRem {
++    public static void main(String[] args){
++        String input="geeksforgeeks";
++        int[] alpha=new int[26];
++        for (int i = 0; i < input.length(); i++) {
++            char ch=input.charAt(i);
++            alpha[ch-'a']++;
++        }
++        for (int i=0;i< alpha.length;i++) {
++            System.out.println((char)(i+'a')+" "+alpha[i]);
++        }
++        int count=0;
++        if(input.length()%2!=0){
++            for (int i=0;i< alpha.length;i++) {
++                if(alpha[i]==1) count++;
++            }
++            if(count>1) count--;
++        }
++        System.out.println(count);
++    }
++}
+Index: src/ArrinArr.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ArrinArr.java b/src/ArrinArr.java
+new file mode 100644
+--- /dev/null	(date 1706862106430)
++++ b/src/ArrinArr.java	(date 1706862106430)
+@@ -0,0 +1,21 @@
++import java.util.ArrayList;
++
++public class ArrinArr {
++    public static void main(String[] args){
++        int arr1[] = {11, 1, 13, 21, 3, 7};
++        int arr2[] = {11, 3, 7, 1};
++        ArrayList<Integer> list=new ArrayList<>();
++        for (int num:arr1) {
++            list.add(num);
++        }
++        boolean check=false;
++        for(int i=0;i<arr2.length;i++){
++            if(list.contains(arr2[i])) check=true;
++            else{
++                check=false;
++                break;
++            }
++        }
++        System.out.println(check);
++    }
++}
+Index: src/ClosestWords.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ClosestWords.java b/src/ClosestWords.java
+new file mode 100644
+--- /dev/null	(date 1706862224075)
++++ b/src/ClosestWords.java	(date 1706862224075)
+@@ -0,0 +1,40 @@
++import java.util.ArrayList;
++import java.util.Collections;
++
++public class ClosestWords {
++    public static void main(String[] args){
++        ArrayList<String> s = new ArrayList<>();
++        s.add("jd");
++        s.add("lzt");
++        s.add("kym");
++        s.add("ky");
++        s.add("gdf");
++        s.add("gdf");
++        s.add("jd");
++        String word1 = "kym";
++        String word2 = "gdf";
++        ArrayList<Integer> index1=new ArrayList<>();
++        ArrayList<Integer> index2=new ArrayList<>();
++        ArrayList<Integer> diff=new ArrayList<>();
++        for (int i = 0; i < s.size(); i++) {
++            if(s.get(i).equals(word1)){
++                index1.add(i);
++            }
++            if(s.get(i).equals(word2)){
++                index2.add(i);
++            }
++        }
++        for (int i = 0; i < index1.size(); i++) {
++            for (int j = 0; j < index2.size(); j++) {
++                diff.add(Math.abs(index1.get(i)-index2.get(j)));
++            }
++        }
++        for (int i = 0; i < index2.size(); i++) {
++            for (int j = 0; j < index1.size(); j++) {
++                diff.add(Math.abs(index2.get(i)-index1.get(j)));
++            }
++        }
++        Collections.sort(diff);
++        System.out.println(diff.get(0));
++    }
++}
+Index: src/CharAlphaNumDetect.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/CharAlphaNumDetect.java b/src/CharAlphaNumDetect.java
+new file mode 100644
+--- /dev/null	(date 1706862194255)
++++ b/src/CharAlphaNumDetect.java	(date 1706862194255)
+@@ -0,0 +1,18 @@
++import java.util.*;
++public class CharAlphaNumDetect {
++    public static void main(String[] args){
++        String word="sdguASGya86387@#$%^&";
++        ArrayList<Character> spechararray=new ArrayList<>();
++        ArrayList<Integer> numarray=new ArrayList<>();
++        ArrayList<String> alphaarray=new ArrayList<>();
++        for(int i=0;i<word.length();i++){
++            char ch=word.charAt(i);
++            if(ch>='0'&&ch<='9') numarray.add(ch-'0');
++            else if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z')) alphaarray.add(ch+"");
++            else spechararray.add(ch);
++        }
++        System.out.println(numarray);
++        System.out.println(alphaarray);
++        System.out.println(spechararray);
++    }
++}
+Index: src/DivBy7.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/DivBy7.java b/src/DivBy7.java
+new file mode 100644
+--- /dev/null	(date 1706862273694)
++++ b/src/DivBy7.java	(date 1706862273694)
+@@ -0,0 +1,16 @@
++public class DivBy7 {
++    public static void main(String[] args){
++        String num="8955795758";
++        int unit = num.charAt(num.length()-1)-'0';
++        int n=0;
++        for(int i=0; i<num.length()-1; i++)
++        {
++            int dig = num.charAt(i)-'0';
++            n = n*10+dig;
++            n = n%7;
++        }
++        int diff = n-(2*unit);
++        if(diff% 7 == 0) System.out.println(1);
++        else System.out.println(0);;
++    }
++}
+Index: src/EncryptString2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/EncryptString2.java b/src/EncryptString2.java
+new file mode 100644
+--- /dev/null	(date 1706862313529)
++++ b/src/EncryptString2.java	(date 1706862313529)
+@@ -0,0 +1,48 @@
++import java.util.HashMap;
++import java.util.Map;
++
++public class EncryptString2 {
++    public static void main(String[] args){
++        String S = "aaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffllllllllllllllllllnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooopppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz";
++        HashMap<Integer,Character> hexa=new HashMap<>();
++        hexa.put(10,'a');
++        hexa.put(11,'b');
++        hexa.put(12,'c');
++        hexa.put(13,'d');
++        hexa.put(14,'e');
++        hexa.put(15,'f');
++        HashMap<Character,Integer> freq=new HashMap<>();
++        for (int i = 0; i < S.length(); i++) {
++            char ch=S.charAt(i);
++            if(freq.containsKey(ch)) freq.put(ch,freq.get(ch)+1);
++            else freq.put(ch,1);
++        }
++        System.out.println(freq);
++        String res="",rev="";
++        for (int i = 0; i < S.length(); i++) {
++            char ch=S.charAt(i);
++            if(hexa.containsKey(freq.get(ch))&&(!(res.contains(ch+"")))){
++                for(Map.Entry<Integer,Character> entry: hexa.entrySet()){
++                    if((entry.getKey()==freq.get(ch))&&(!res.contains(ch+""))){
++                        res+=ch;
++                        res+=entry.getValue();
++                    }
++                }
++            }
++            else if((!(hexa.containsKey(freq.get(ch))))&&(!res.contains(ch+""))){
++                for(Map.Entry<Character,Integer> entry:freq.entrySet()){
++                    if(ch== entry.getKey()){
++                        res+=entry.getKey();
++                        res+=entry.getValue();
++                    }
++                }
++            }
++        }
++        System.out.println(res);
++        for (int i = res.length()-1; i >= 0; i--) {
++            char ch=res.charAt(i);
++            rev+=ch;
++        }
++        System.out.println(rev);
++    }
++}
+Index: src/EqualPointStrBraces.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/EqualPointStrBraces.java b/src/EqualPointStrBraces.java
+new file mode 100644
+--- /dev/null	(date 1706862892053)
++++ b/src/EqualPointStrBraces.java	(date 1706862892053)
+@@ -0,0 +1,49 @@
++
++
++import java.util.HashMap;
++import java.util.Map;
++
++public class EqualPointStrBraces {
++    public static void main(String[] args){
++        String str = "))";
++        String part1="";
++        String part2="";
++        int mid=0;
++        int open1=0,close1=0,open2=0,close2=0;
++        part1=str.substring(0,mid);
++        part2=str.substring(mid,str.length());
++        for (int i = 0; i < part1.length(); i++) {
++            char ch=part1.charAt(i);
++            if(ch=='(') open1++;
++            else if(ch==')') close1++;
++        }
++        for (int i = 0; i < part2.length(); i++) {
++            char ch=part2.charAt(i);
++            if(ch=='(') open2++;
++            else if(ch==')') close2++;
++        }
++        if(open1==close2) System.out.println(mid);
++        else{
++            while(open1!=close2){
++                mid++;
++                open1=0;
++                open2=0;
++                close1=0;
++                close2=0;
++                part1=str.substring(0,mid);
++                part2=str.substring(mid,str.length());
++                for (int i = 0; i < part1.length(); i++) {
++                    char ch=part1.charAt(i);
++                    if(ch=='(') open1++;
++                    else if(ch==')') close1++;
++                }
++                for (int i = 0; i < part2.length(); i++) {
++                    char ch=part2.charAt(i);
++                    if(ch=='(') open2++;
++                    else if(ch==')') close2++;
++                }
++            }
++            System.out.println(mid);
++        }
++    }
++}
+Index: src/IntegerToRoman.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/IntegerToRoman.java b/src/IntegerToRoman.java
+new file mode 100644
+--- /dev/null	(date 1706862466129)
++++ b/src/IntegerToRoman.java	(date 1706862466129)
+@@ -0,0 +1,139 @@
++import java.util.ArrayList;
++import java.util.HashMap;
++import java.util.Map;
++import java.util.Objects;
++
++public class IntegerToRoman {
++    public static void main(String[] args) {
++        HashMap<String, Integer> RomanValues = new HashMap<>();
++        RomanValues.put("I", 1);
++        RomanValues.put("II", 2);
++        RomanValues.put("III", 3);
++        RomanValues.put("IV", 4);
++        RomanValues.put("V", 5);
++        RomanValues.put("VI", 6);
++        RomanValues.put("VII", 7);
++        RomanValues.put("VIII", 8);
++        RomanValues.put("IX", 9);
++        RomanValues.put("X", 10);
++        RomanValues.put("L", 50);
++        RomanValues.put("C", 100);
++        RomanValues.put("D", 500);
++        RomanValues.put("M", 1000);
++        int Number = 675, count = 0, temp = Number, rev = 0;
++        for (Map.Entry<String, Integer> entry : RomanValues.entrySet()) {
++            if (entry.getValue().equals(Number)) System.out.println(entry.getKey());
++        }
++        String res = "";
++        while (temp > 0) {
++            count++;
++            rev = rev * 10 + temp % 10;
++            temp /= 10;
++        }
++        int base = 0, exponent = 0;
++        ArrayList<Integer> list = new ArrayList<>();
++        while (count > 0) {
++            base = rev % 10;
++            exponent = (int) (Math.pow(10, count - 1));
++            list.add(base * exponent);
++            rev /= 10;
++            count--;
++        }
++        for (Integer integer : list) {
++            for (Map.Entry<String, Integer> entry : RomanValues.entrySet()) {
++                if (integer.equals(entry.getValue())) res += entry.getKey();
++            }
++            if(!(RomanValues.containsValue(integer)) && (integer != 0)) {
++                if (integer < 100) {
++                    for (Map.Entry<String, Integer> entry : RomanValues.entrySet()) {
++                        if (entry.getValue().equals(integer)) res += entry.getKey();
++                    }
++                    if (integer < 50) {
++                        int sub = 10;
++                        String key = "";
++                        for (Map.Entry<String, Integer> entry : RomanValues.entrySet()) {
++                            if (entry.getValue().equals(sub)) {
++                                res += entry.getKey();
++                                key = entry.getKey();
++                            }
++                        }
++                        if (integer == 40) res += "L";
++                        else {
++                            while (sub != integer) {
++                                res += key;
++                                sub += 10;
++                            }
++                        }
++                    }
++                    else if (integer > 50) {
++                        int sub = 50;
++                        String ten = "";
++                        for (Map.Entry<String, Integer> entry : RomanValues.entrySet()) {
++                            if (entry.getValue() == 10) ten = entry.getKey();
++                        }
++                        if (integer == 90) {
++                            res += ten;
++                            res += "C";
++                        } else {
++                            res += "L";
++                            while (sub != integer) {
++                                res += ten;
++                                sub += 10;
++                            }
++                        }
++                    }
++                }
++                else if (integer < 1000) {
++                    if (integer < 500) {
++                        int sub = 100;
++                        String key = "";
++                        for (Map.Entry<String, Integer> entry : RomanValues.entrySet()) {
++                            if (entry.getValue().equals(sub)) {
++                                res += entry.getKey();
++                                key = entry.getKey();
++                            }
++                        }
++                        if (integer == 400) res += "D";
++                        else {
++                            while (sub != integer) {
++                                res += key;
++                                sub += 100;
++                            }
++                        }
++                    } else if (integer > 500) {
++                        int sub = 500;
++                        String hundred = "";
++                        for (Map.Entry<String, Integer> entry : RomanValues.entrySet()) {
++                            if (entry.getValue() == 100) hundred = entry.getKey();
++                        }
++                        if (integer == 900) {
++                            res += hundred;
++                            res += "M";
++                        } else {
++                            res += "D";
++                            while (sub != integer) {
++                                res += hundred;
++                                sub += 100;
++                            }
++                        }
++                    }
++                }
++                else if (integer < 10000) {
++                    int sub = 1000;
++                    String key = "";
++                    for (Map.Entry<String, Integer> entry : RomanValues.entrySet()) {
++                        if (entry.getValue().equals(sub)) {
++                            res += entry.getKey();
++                            key = entry.getKey();
++                        }
++                    }
++                    while (sub != integer) {
++                        res += key;
++                        sub += 1000;
++                    }
++                }
++            }
++        }
++        System.out.println(res);
++    }
++}
+Index: src/FindKthElement.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/FindKthElement.java b/src/FindKthElement.java
+new file mode 100644
+--- /dev/null	(date 1706862399724)
++++ b/src/FindKthElement.java	(date 1706862399724)
+@@ -0,0 +1,21 @@
++import java.util.ArrayList;
++import java.util.Collections;
++
++public class FindKthElement {
++    public static void main(String[] args) {
++        ArrayList<Integer> arr1=new ArrayList<>();
++        ArrayList<Integer> arr2=new ArrayList<>();
++        int[] a1={1,4,7,10};
++        int[] a2={2,5,6};
++        for (int i = 0; i < a1.length; i++) {
++            arr1.add(a1[i]);
++        }
++        for (int i = 0; i < a2.length; i++) {
++            arr2.add(a2[i]);
++        }
++        int l1=arr1.size(),l2=arr2.size(),k=4;
++        arr1.addAll(arr2);
++        Collections.sort(arr1);
++        System.out.println(arr1.get(k-1));
++    }
++}
+Index: src/LongestPrefix.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LongestPrefix.java b/src/LongestPrefix.java
+new file mode 100644
+--- /dev/null	(date 1706862566033)
++++ b/src/LongestPrefix.java	(date 1706862566033)
+@@ -0,0 +1,38 @@
++import java.util.ArrayList;
++
++public class LongestPrefix {
++    public static void main(String[] args) {
++        String[] words={"dmlrpjyatcoqotxzplqmlptaipczhlikztcofaoaedruyqundkzqatqkkvjrgucineyugnxmsohsgdfmngcpbvamqldyfhgvnfrv", "oioerglunzjvbzxwblooqnuytrnyijuxtibkoogdppzrqyptjeizrezmvnnfyherqidgyjkoyjfrhwkscsrvytivivbgcfxupab", "llclwjcdfpvijodijndriexnmwhbyiplvtxrcbwkqtsaixitn", "lvskkgjujheztaustxtqhklbkvyupnhajbmvhvprfusawmspjlhsvtthouddhlfsmsqwpfpubhuzvmrhaazx"};
++        String comp="",prefix="";
++        //Solution 1
++        int min=Integer.MAX_VALUE;
++        for (int i = 0; i < words.length; i++) {
++            min=Math.min(min,words[i].length());
++        }
++        for (int i = 0; i < words.length; i++) {
++            if(words[i].length()==min) comp=words[i];
++        }
++        boolean check=false;
++//        ArrayList<String> compwords=new ArrayList<>();
++//        for (int i = 0; i < words.length; i++) {
++//            if(!(words[i].equals(prefix))) compwords.add(words[i]);
++//        }
++        while(!check){
++            int k=0;
++            for (String word:words) {
++                for (int i=0;i<word.length();i++) {
++                    if(!((word.charAt(i)+"")==(comp.charAt(k)+""))){
++                        System.out.println("-1");
++                        check=false;
++                    }
++                    else {
++                            check=true;
++                            prefix+=comp.charAt(k);
++                        }
++                    k++;
++                }
++            }
++        }
++        System.out.println(prefix);
++    }
++}
+\ No newline at end of file
+Index: src/LeftRotateArr.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LeftRotateArr.java b/src/LeftRotateArr.java
+new file mode 100644
+--- /dev/null	(date 1706862520892)
++++ b/src/LeftRotateArr.java	(date 1706862520892)
+@@ -0,0 +1,23 @@
++public class LeftRotateArr {
++    public static void main(String[] args){
++        int[] numbers={40, 13, 27, 87, 95, 40, 96, 71, 35, 79, 68, 2, 98, 3, 18, 93, 53, 57, 2, 81, 87, 42, 66, 90, 45, 20, 41, 30, 32, 18, 98, 72, 82, 76, 10, 28, 68, 57, 98, 54, 87, 66, 7, 84, 20, 25, 29, 72, 33, 30, 4, 20, 71, 69, 9, 16, 41, 50, 97, 24, 19, 46, 47, 52, 22, 56, 80, 89, 65, 29, 42, 51, 94, 1, 35, 65, 25};
++        int rotate=69,count=0,temp=rotate,len=numbers.length,index=0;
++        int[] res=new int[numbers.length];
++        while(rotate>len){
++            rotate-=len;
++            temp=rotate;
++        }
++        for (int i=0;i<(len-rotate);i++){
++            res[i]=numbers[temp];
++            temp++;
++            index=i;
++        }
++        for (int i = 0; i < rotate; i++) {
++            res[index+1]=numbers[i];
++            index++;
++        }
++        for (int i = 0; i < len; i++) {
++            System.out.print(res[i]+" ");
++        }
++    }
++}
+Index: src/MissingNumberArray.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/MissingNumberArray.java b/src/MissingNumberArray.java
+new file mode 100644
+--- /dev/null	(date 1706862630152)
++++ b/src/MissingNumberArray.java	(date 1706862630152)
+@@ -0,0 +1,16 @@
++import java.util.ArrayList;
++
++public class MissingNumberArray {
++    public static void main(String[] args) {
++        int N=10,res=0;
++        int[] A={6,1,2,8,3,4,7,10,5};
++        ArrayList<Integer> list=new ArrayList<>();
++        for (int i = 0; i < N-1; i++) {
++            list.add(A[i]);
++        }
++        for (int i = 1; i <= N; i++) {
++            if(!list.contains(i)) res=i;
++        }
++        System.out.println(res);
++    }
++}
+Index: src/MinDistBwTwoNum.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/MinDistBwTwoNum.java b/src/MinDistBwTwoNum.java
+new file mode 100644
+--- /dev/null	(date 1706862596112)
++++ b/src/MinDistBwTwoNum.java	(date 1706862596112)
+@@ -0,0 +1,15 @@
++import java.util.ArrayList;
++
++public class MinDistBwTwoNum {
++    public static void main(String[] args) {
++        int[] a={1,2,3,2};
++        int n=4,x=1,y=2,left=0,right=0;
++        ArrayList<Integer> list=new ArrayList<>();
++        for (int i = 0; i < n; i++) {
++            list.add(a[i]);
++        }
++        left=list.indexOf(x);
++        right=list.indexOf(y);
++        System.out.println(left+" "+right);
++    }
++}
