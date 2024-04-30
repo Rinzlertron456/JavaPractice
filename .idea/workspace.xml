@@ -4,85 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="push">
-      <change afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RecursiveBubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RecursiveInsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AddDigNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AddDigNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AlphPalRem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AlphPalRem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AltMergStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AltMergStr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ArrMissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ArrMissingNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ArrinArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ArrinArr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/CharAlphaNumDetect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/CharAlphaNumDetect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ClosestWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ClosestWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/CocaCola.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/CocaCola.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ConsecutiveLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ConsecutiveLetters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/CountItemByRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/CountItemByRule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/DeCodeEnCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/DeCodeEnCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/DecryptStringfromAlphabettoIntegerMapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/DecryptStringfromAlphabettoIntegerMapping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/DigPalRem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/DigPalRem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/DivBy7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/DivBy7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/EncryptString2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/EncryptString2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/EqualPointStrBraces.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/EqualPointStrBraces.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/EvenOddZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/EvenOddZeroes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/FindKthElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/FindKthElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/GoalParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/GoalParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/GradingStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/GradingStudents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/HillWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/HillWeight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/InnerDiamond.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/InnerDiamond.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/IntegerToRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/IntegerToRoman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/IsPalPossible.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/IsPalPossible.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/JumbleWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/JumbleWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/KthDayWeek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/KthDayWeek.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LeftRotateArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LeftRotateArr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LongNonRepStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LongNonRepStr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LongestPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LongestPrefix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MinDistBwTwoNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MinDistBwTwoNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MirrorDiamond.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MirrorDiamond.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MissingNumberArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MissingNumberArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MostFreqOccuDigit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MostFreqOccuDigit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/NumberAscending.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/NumberAscending.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/NumberToWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/NumberToWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/OrderedWordsCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/OrderedWordsCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ParityWordRev.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ParityWordRev.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Pattern22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Pattern22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/PinABG.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/PinABG.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/PowSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/PowSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/PrefixMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/PrefixMatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Pyramid_pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Pyramid_pattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RemoveDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RemoveDuplicates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RemoveVowelString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RemoveVowelString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ReplaceArrElementWithRank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ReplaceArrElementWithRank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ReverseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ReverseArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ReverseArrorString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ReverseArrorString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ReveserSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ReveserSubArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RightRotateArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RightRotateArr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/STRINGDISTREPLACE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/STRINGDISTREPLACE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ShuffleStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ShuffleStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SmallandSecSmallEleArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SmallandSecSmallEleArr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SortPeople.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SortPeople.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SortSentence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SortSentence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SpeCaseWordsRev.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SpeCaseWordsRev.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SpecialCaseReversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SpecialCaseReversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/StableUnstable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/StableUnstable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/StepNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/StepNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/StrAlphaRevCharRetain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/StrAlphaRevCharRetain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/StringEndNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/StringEndNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SumeetNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SumeetNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SumofPrimeDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SumofPrimeDigits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/TSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/TSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ToggleNthChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ToggleNthChar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/UncommonChars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/UncommonChars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/arrayfindkey.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/arrayfindkey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/qwerty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/qwerty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/repldigwithchar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/repldigwithchar.class" afterDir="false" />
-    </list>
+    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -299,7 +221,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698907027321</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1714231007902</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714231007902</updated>
+    </task>
+    <task id="LOCAL-00009" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1714231021276</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714231021276</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,7 +254,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="p" />
     <MESSAGE value="push" />
-    <option name="LAST_COMMIT_MESSAGE" value="push" />
+    <MESSAGE value="pushsort" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushsort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
