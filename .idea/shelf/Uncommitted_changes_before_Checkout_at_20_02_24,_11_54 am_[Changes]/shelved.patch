@@ -1,0 +1,211 @@
+Index: src/MissingNumberArray.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.ArrayList;\n\npublic class MissingNumberArray {\n    public static void main(String[] args) {\n        int N=10,res=0;\n        int[] A={6,1,2,8,3,4,7,10,5};\n        ArrayList<Integer> list=new ArrayList<>();\n        for (int i = 0; i < N-1; i++) {\n            list.add(A[i]);\n        }\n        for (int i = 1; i <= N; i++) {\n            if(!list.contains(i)) res=i;\n        }\n        System.out.println(res);\n    }\n}\n
+===================================================================
+diff --git a/src/MissingNumberArray.java b/src/MissingNumberArray.java
+--- a/src/MissingNumberArray.java	
++++ b/src/MissingNumberArray.java	
+@@ -1,9 +1,9 @@
+-import java.util.ArrayList;
++import java.util.*;
+ 
+ public class MissingNumberArray {
+     public static void main(String[] args) {
+-        int N=10,res=0;
+-        int[] A={6,1,2,8,3,4,7,10,5};
++        int N=5,res=0;
++        int[] A={2,0,3,3,1};
+         ArrayList<Integer> list=new ArrayList<>();
+         for (int i = 0; i < N-1; i++) {
+             list.add(A[i]);
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"fd963c57-024b-4f52-ab73-a225d61d2eec\" name=\"Changes\" comment=\"push\">\n      <change afterPath=\"$PROJECT_DIR$/src/RemoveDuplicates.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/RomanToInteger.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/RomanToInteger.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExportToHTMLSettings\">\n    <option name=\"OUTPUT_DIRECTORY\" value=\"$PROJECT_DIR$/exportToHTML\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 0\n}</component>\n  <component name=\"ProjectId\" id=\"2PejjbPUJEDh7R0vPB4C2Gg07ua\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;java&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice&quot;,\n    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\n    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\n  }\n}</component>\n  <component name=\"RunManager\" selected=\"Application.RemoveDuplicates\">\n    <configuration name=\"AddDigNum\" type=\"Application\" factoryName=\"Application\" singleton=\"false\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"AddDigNum\" />\n      <module name=\"JavaPractice\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"ArrMissingNumber\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"ArrMissingNumber\" />\n      <module name=\"JavaPractice\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"DeCodeEnCode\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"DeCodeEnCode\" />\n      <module name=\"JavaPractice\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"HillWeight\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"HillWeight\" />\n      <module name=\"JavaPractice\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"IntegerToRoman\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"11\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"IntegerToRoman\" />\n      <module name=\"JavaPractice\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"LongestPrefix\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"LongestPrefix\" />\n      <module name=\"JavaPractice\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"NumberToWord\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"NumberToWord\" />\n      <module name=\"JavaPractice\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"RemoveDuplicates\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"RemoveDuplicates\" />\n      <module name=\"JavaPractice\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"RomanToInteger\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"RomanToInteger\" />\n      <module name=\"JavaPractice\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"SumeetNumber\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"SumeetNumber\" />\n      <module name=\"JavaPractice\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <list>\n      <item itemvalue=\"Application.IntegerToRoman\" />\n      <item itemvalue=\"Application.AddDigNum\" />\n      <item itemvalue=\"Application.SumeetNumber\" />\n      <item itemvalue=\"Application.HillWeight\" />\n      <item itemvalue=\"Application.DeCodeEnCode\" />\n      <item itemvalue=\"Application.RemoveDuplicates\" />\n      <item itemvalue=\"Application.RomanToInteger\" />\n      <item itemvalue=\"Application.ArrMissingNumber\" />\n      <item itemvalue=\"Application.LongestPrefix\" />\n      <item itemvalue=\"Application.NumberToWord\" />\n    </list>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.RemoveDuplicates\" />\n        <item itemvalue=\"Application.RomanToInteger\" />\n        <item itemvalue=\"Application.LongestPrefix\" />\n        <item itemvalue=\"Application.ArrMissingNumber\" />\n        <item itemvalue=\"Application.NumberToWord\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"SvnConfiguration\" cleanupOnStartRun=\"true\">\n    <configuration>$USER_HOME$/.subversion</configuration>\n    <supportedVersion>125</supportedVersion>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"fd963c57-024b-4f52-ab73-a225d61d2eec\" name=\"Changes\" comment=\"\" />\n      <created>1683824581474</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1683824581474</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"push\">\n      <created>1688613743671</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1688613743671</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"push\">\n      <created>1688622719223</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1688622719223</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"push\">\n      <created>1688622736447</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1688622736447</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"push\">\n      <created>1688624406277</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1688624406277</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"push\">\n      <created>1688624551491</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1688624551491</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"push\">\n      <created>1688624561233</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1688624561233</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"push\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1698907027321</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1698907027321</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"p\" />\n    <MESSAGE value=\"push\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"push\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/InnerDiamond.java</url>\n          <option name=\"timeStamp\" value=\"20\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,10 +5,80 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="push">
+-      <change afterPath="$PROJECT_DIR$/src/RemoveDuplicates.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AddDigNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AddDigNum.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AlphPalRem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AlphPalRem.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AltMergStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AltMergStr.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ArrMissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ArrMissingNumber.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ArrinArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ArrinArr.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/BinarySearch.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/CharAlphaNumDetect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/CharAlphaNumDetect.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ClosestWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ClosestWords.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/CocaCola.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/CocaCola.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ConsecutiveLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ConsecutiveLetters.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/CountItemByRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/CountItemByRule.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/DeCodeEnCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/DeCodeEnCode.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/DecryptStringfromAlphabettoIntegerMapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/DecryptStringfromAlphabettoIntegerMapping.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/DigPalRem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/DigPalRem.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/DivBy7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/DivBy7.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/EncryptString2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/EncryptString2.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/EqualPointStrBraces.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/EqualPointStrBraces.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/EvenOddZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/EvenOddZeroes.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/FindKthElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/FindKthElement.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/GoalParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/GoalParser.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/GradingStudents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/GradingStudents.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/HillWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/HillWeight.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/InnerDiamond.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/InnerDiamond.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/IntegerToRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/IntegerToRoman.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/IsPalPossible.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/IsPalPossible.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/JumbleWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/JumbleWords.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/KthDayWeek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/KthDayWeek.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LeftRotateArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LeftRotateArr.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LongNonRepStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LongNonRepStr.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LongestPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LongestPrefix.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MinDistBwTwoNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MinDistBwTwoNum.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MirrorDiamond.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MirrorDiamond.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MissingNumberArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MissingNumberArray.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MostFreqOccuDigit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MostFreqOccuDigit.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/NumberAscending.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/NumberAscending.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/NumberToWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/NumberToWord.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/OrderedWordsCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/OrderedWordsCount.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ParityWordRev.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ParityWordRev.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Pattern22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Pattern22.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/PinABG.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/PinABG.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/PowSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/PowSum.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/PrefixMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/PrefixMatch.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Pyramid_pattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Pyramid_pattern.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RemoveDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RemoveDuplicates.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RemoveVowelString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RemoveVowelString.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ReplaceArrElementWithRank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ReplaceArrElementWithRank.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ReverseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ReverseArray.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ReverseArrorString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ReverseArrorString.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ReveserSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ReveserSubArray.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RightRotateArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RightRotateArr.class" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanToInteger.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/STRINGDISTREPLACE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/STRINGDISTREPLACE.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ShuffleStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ShuffleStrings.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SmallandSecSmallEleArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SmallandSecSmallEleArr.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SortPeople.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SortPeople.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SortSentence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SortSentence.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SpeCaseWordsRev.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SpeCaseWordsRev.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SpecialCaseReversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SpecialCaseReversal.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/StableUnstable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/StableUnstable.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/StepNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/StepNum.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/StrAlphaRevCharRetain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/StrAlphaRevCharRetain.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/StringEndNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/StringEndNum.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SumeetNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SumeetNumber.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SumofPrimeDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SumofPrimeDigits.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/TSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/TSum.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ToggleNthChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ToggleNthChar.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/UncommonChars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/UncommonChars.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/arrayfindkey.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/arrayfindkey.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/qwerty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/qwerty.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/repldigwithchar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/repldigwithchar.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/MissingNumberArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MissingNumberArray.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -37,22 +107,22 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;java&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice&quot;,
+-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "git-widget-placeholder": "java",
++    "last_opened_file_path": "/Users/SR20464955/IdeaProjects/JavaPractice",
++    "onboarding.tips.debug.path": "/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java",
++    "project.structure.last.edited": "Project",
++    "project.structure.proportion": "0.15",
++    "project.structure.side.proportion": "0.2",
++    "run.code.analysis.last.selected.profile": "pProject Default",
++    "settings.editor.selected.configurable": "configurable.group.language"
+   }
+-}</component>
+-  <component name="RunManager" selected="Application.RemoveDuplicates">
++}]]></component>
++  <component name="RunManager" selected="Application.MissingNumberArray">
+     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
+       <module name="JavaPractice" />
+@@ -69,6 +139,13 @@
+     </configuration>
+     <configuration name="DeCodeEnCode" type="Application" factoryName="Application" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="DeCodeEnCode" />
++      <module name="JavaPractice" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="EncryptString2" type="Application" factoryName="Application" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="EncryptString2" />
+       <module name="JavaPractice" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+@@ -97,14 +174,15 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="NumberToWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="NumberToWord" />
++    <configuration name="MissingNumberArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="MissingNumberArray" />
+       <module name="JavaPractice" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+     <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="ALTERNATIVE_JRE_PATH" value="20" />
+       <option name="MAIN_CLASS_NAME" value="RemoveDuplicates" />
+       <module name="JavaPractice" />
+       <method v="2">
+@@ -126,24 +204,25 @@
+       </method>
+     </configuration>
+     <list>
++      <item itemvalue="Application.EncryptString2" />
+       <item itemvalue="Application.IntegerToRoman" />
+       <item itemvalue="Application.AddDigNum" />
+       <item itemvalue="Application.SumeetNumber" />
+       <item itemvalue="Application.HillWeight" />
+       <item itemvalue="Application.DeCodeEnCode" />
++      <item itemvalue="Application.MissingNumberArray" />
+       <item itemvalue="Application.RemoveDuplicates" />
+       <item itemvalue="Application.RomanToInteger" />
+       <item itemvalue="Application.ArrMissingNumber" />
+       <item itemvalue="Application.LongestPrefix" />
+-      <item itemvalue="Application.NumberToWord" />
+     </list>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.RemoveDuplicates" />
++        <item itemvalue="Application.MissingNumberArray" />
+         <item itemvalue="Application.RomanToInteger" />
++        <item itemvalue="Application.RemoveDuplicates" />
+         <item itemvalue="Application.LongestPrefix" />
+         <item itemvalue="Application.ArrMissingNumber" />
+-        <item itemvalue="Application.NumberToWord" />
+       </list>
+     </recent_temporary>
+   </component>
