@@ -26,12 +26,8 @@ public class HighLowFreqNos {
         for(Map.Entry<Integer,Integer> entry: freq.entrySet()){
             if(entry.getValue()==max) maxlist.add(entry.getKey());
         }
-        System.out.println(minlist);
-        System.out.println(maxlist);
         Collections.sort(minlist);
         Collections.sort(maxlist);
-        System.out.println(minlist);
-        System.out.println(maxlist);
         res[0]=maxlist.get(0);
         res[1]= minlist.get(0);
         if(min==max) res[0]= minlist.get(0);
