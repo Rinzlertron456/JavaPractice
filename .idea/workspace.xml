@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushseclargest" />
+    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30-04-2024_21_45_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30-04-2024_21_45__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_02_24__11_54am__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_02_24__11_54am__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/HighLowFreqNos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/HighLowFreqNos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MoveZeroesToEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MoveZeroesToEnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SecLargestandSecSmallest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SecLargestandSecSmallest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +38,12 @@
     &quot;assignee&quot;: &quot;Rinzlertron456&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Rinzlertron456/JavaPractice.git",
-    "accountId": "d2661be1-5f11-4b4b-8011-3f6efbe40da2"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rinzlertron456/JavaPractice.git&quot;,
+    &quot;accountId&quot;: &quot;b2e0ef5f-2449-450a-a442-bb9155ff8427&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -46,12 +55,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.LeftRotateArr.executor": "Run",
-    "Application.MoveZeroesToEnd.executor": "Run",
-    "Application.RightRotateArr.executor": "Run",
-    "Application.SecLargestandSecSmallest.executor": "Run",
-    "Application.SmallandSecSmallEleArr.executor": "Run",
+    "Application.MergeSort.executor": "Debug",
+    "Application.QuickSort.executor": "Run",
+    "Application.RecursiveBubbleSort.executor": "Run",
+    "Application.RecursiveInsertionSort.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -66,7 +73,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MoveZeroesToEnd">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -97,36 +104,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftRotateArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeftRotateArr" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSort" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeroesToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MoveZeroesToEnd" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickSort" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RightRotateArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RightRotateArr" />
+    <configuration name="RecursiveBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursiveBubbleSort" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecLargestandSecSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecLargestandSecSmallest" />
+    <configuration name="RecursiveInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursiveInsertionSort" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallandSecSmallEleArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SmallandSecSmallEleArr" />
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveDuplicates" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,19 +152,19 @@
       <item itemvalue="Application.SumeetNumber" />
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
-      <item itemvalue="Application.LeftRotateArr" />
-      <item itemvalue="Application.MoveZeroesToEnd" />
-      <item itemvalue="Application.RightRotateArr" />
-      <item itemvalue="Application.SecLargestandSecSmallest" />
-      <item itemvalue="Application.SmallandSecSmallEleArr" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.RecursiveBubbleSort" />
+      <item itemvalue="Application.RecursiveInsertionSort" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.RemoveDuplicates" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MoveZeroesToEnd" />
-        <item itemvalue="Application.LeftRotateArr" />
-        <item itemvalue="Application.RightRotateArr" />
-        <item itemvalue="Application.SecLargestandSecSmallest" />
-        <item itemvalue="Application.SmallandSecSmallEleArr" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.RecursiveInsertionSort" />
+        <item itemvalue="Application.RecursiveBubbleSort" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.RemoveDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -224,47 +231,31 @@
       <option name="project" value="LOCAL" />
       <updated>1698907027321</updated>
     </task>
-    <task id="LOCAL-00008" summary="push">
+    <task id="LOCAL-00008" summary="pushsort">
       <option name="closed" value="true" />
-      <created>1714195555732</created>
+      <created>1714231007902</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1714195555732</updated>
+      <updated>1714231007902</updated>
     </task>
-    <task id="LOCAL-00009" summary="pushseclargest">
+    <task id="LOCAL-00009" summary="pushsort">
       <option name="closed" value="true" />
-      <created>1714469399058</created>
+      <created>1714231021276</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1714469399058</updated>
+      <updated>1714231021276</updated>
     </task>
-    <task id="LOCAL-00010" summary="pushseclargest">
+    <task id="LOCAL-00010" summary="pushsort">
       <option name="closed" value="true" />
-      <created>1714469423749</created>
+      <created>1714493032668</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1714469423749</updated>
+      <updated>1714493032668</updated>
     </task>
-    <task id="LOCAL-00011" summary="pushseclargest">
-      <option name="closed" value="true" />
-      <created>1714493193279</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1714493193279</updated>
-    </task>
-    <task id="LOCAL-00012" summary="pushseclargest">
-      <option name="closed" value="true" />
-      <created>1714493284049</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1714493284049</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,7 +272,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="p" />
     <MESSAGE value="push" />
-    <MESSAGE value="pushseclargest" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushseclargest" />
+    <MESSAGE value="pushsort" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushsort" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InnerDiamond.java</url>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaPractice$MergeSort.ic" NAME="MergeSort Coverage Results" MODIFIED="1714220393229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
