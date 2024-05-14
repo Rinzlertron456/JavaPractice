@@ -21,10 +21,10 @@ public class LongestSubArrwithSumK {
                 longsum+=num;
             }
             System.out.println(longsum);
-            if(longsum>K) {
-                list.removeLast();
-                longsum=0;
-            }
+//            if(longsum>K) {
+//                list.removeLast();
+//                longsum=0;
+//            }
         }
         System.out.println(list.size());
     }

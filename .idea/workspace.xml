@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushseclargest">
-      <change afterPath="$PROJECT_DIR$/src/LongestSubArrwithSumK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaxConsecutiveOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingleFrequencyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_24__3_59pm__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_24__3_59pm__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_24__2_33pm__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_24__2_33pm__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27-04-2024_11_52__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27-04-2024_11_52__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30-04-2024_21_45__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30-04-2024_21_45__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_24__9_43pm__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_24__9_43pm__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/FindTheUnion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/FindTheUnion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LinearSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LinearSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MaxConsecutiveOnes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MaxConsecutiveOnes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AsteriskCOunt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AsteriskCOunt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,12 +52,10 @@
     "Application.FindTheUnion.executor": "Run",
     "Application.LeftRotateArr.executor": "Run",
     "Application.LinearSearch.executor": "Run",
-    "Application.LongestSubArrwithSumK.executor": "Run",
-    "Application.MaxConsecutiveOnes.executor": "Run",
     "Application.MoveZeroesToEnd.executor": "Run",
     "Application.RightRotateArr.executor": "Run",
+    "Application.RomanToInteger.executor": "Debug",
     "Application.SecLargestandSecSmallest.executor": "Run",
-    "Application.SingleFrequencyNumber.executor": "Run",
     "Application.SmallandSecSmallEleArr.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -88,7 +71,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LongestSubArrwithSumK">
+  <component name="RunManager" selected="Application.RomanToInteger">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -126,6 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LeftRotateArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeftRotateArr" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinearSearch" />
       <module name="JavaPractice" />
@@ -133,22 +123,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubArrwithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestSubArrwithSumK" />
+    <configuration name="MoveZeroesToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MoveZeroesToEnd" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxConsecutiveOnes" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleFrequencyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingleFrequencyNumber" />
+    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RomanToInteger" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,19 +150,19 @@
       <item itemvalue="Application.SumeetNumber" />
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
-      <item itemvalue="Application.LongestSubArrwithSumK" />
-      <item itemvalue="Application.MaxConsecutiveOnes" />
-      <item itemvalue="Application.SingleFrequencyNumber" />
+      <item itemvalue="Application.RomanToInteger" />
       <item itemvalue="Application.FindTheUnion" />
+      <item itemvalue="Application.LeftRotateArr" />
       <item itemvalue="Application.LinearSearch" />
+      <item itemvalue="Application.MoveZeroesToEnd" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestSubArrwithSumK" />
-        <item itemvalue="Application.SingleFrequencyNumber" />
-        <item itemvalue="Application.MaxConsecutiveOnes" />
+        <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.FindTheUnion" />
         <item itemvalue="Application.LinearSearch" />
+        <item itemvalue="Application.MoveZeroesToEnd" />
+        <item itemvalue="Application.LeftRotateArr" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +285,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715060507470</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="pushseclargest">
+      <option name="closed" value="true" />
+      <created>1715693294661</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715693294661</updated>
+    </task>
+    <task id="LOCAL-00016" summary="pushseclargest">
+      <option name="closed" value="true" />
+      <created>1715693316233</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1715693316233</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,5 +320,20 @@
     <MESSAGE value="push" />
     <MESSAGE value="pushseclargest" />
     <option name="LAST_COMMIT_MESSAGE" value="pushseclargest" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RomanToInteger.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
