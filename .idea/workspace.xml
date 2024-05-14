@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushseclargest">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_24,_2_33 pm_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaPractice/MaxConsecutiveOnes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaPractice/MissingNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AsteriskCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_24,_3_59 pm_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_05_24__3_59pm__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27-04-2024_11_52_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27-04-2024_11_52__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30-04-2024_21_45_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30-04-2024_21_45__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_24,_9_43 pm_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_04_24__9_43pm__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/FindTheUnion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/FindTheUnion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MaxConsecutiveOnes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MaxConsecutiveOnes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MissingNumberArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MissingNumberArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SingleFrequencyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SingleFrequencyNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FindTheUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FindTheUnion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestSubArrwithSumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestSubArrwithSumK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanToInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,31 +64,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.FindTheUnion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeftRotateArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoveZeroesToEnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RightRotateArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecLargestandSecSmallest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmallandSecSmallEleArr.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;java&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.FindTheUnion.executor": "Run",
+    "Application.LeftRotateArr.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
+    "Application.MoveZeroesToEnd.executor": "Run",
+    "Application.RightRotateArr.executor": "Run",
+    "Application.RomanToInteger.executor": "Debug",
+    "Application.SecLargestandSecSmallest.executor": "Run",
+    "Application.SmallandSecSmallEleArr.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "java",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/SR20464955/IdeaProjects/JavaPractice",
+    "onboarding.tips.debug.path": "/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.FindTheUnion">
+}]]></component>
+  <component name="RunManager" selected="Application.RomanToInteger">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -132,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RightRotateArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RightRotateArr" />
+    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RomanToInteger" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,19 +168,19 @@
       <item itemvalue="Application.SumeetNumber" />
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
+      <item itemvalue="Application.RomanToInteger" />
       <item itemvalue="Application.FindTheUnion" />
       <item itemvalue="Application.LeftRotateArr" />
       <item itemvalue="Application.LinearSearch" />
       <item itemvalue="Application.MoveZeroesToEnd" />
-      <item itemvalue="Application.RightRotateArr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.FindTheUnion" />
         <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.MoveZeroesToEnd" />
         <item itemvalue="Application.LeftRotateArr" />
-        <item itemvalue="Application.RightRotateArr" />
       </list>
     </recent_temporary>
   </component>
@@ -306,5 +322,20 @@
     <MESSAGE value="push" />
     <MESSAGE value="pushseclargest" />
     <option name="LAST_COMMIT_MESSAGE" value="pushseclargest" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RomanToInteger.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
