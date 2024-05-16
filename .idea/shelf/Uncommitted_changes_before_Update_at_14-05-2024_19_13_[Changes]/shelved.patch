@@ -1,0 +1,16 @@
+Index: src/AsteriskCount.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class AsteriskCOunt {\r\n    public static void main(String[] args){\r\n        String s=\"|**|*|*|**||***||\";\r\n        int count=0,index1=0,index2=0;\r\n        for(int i=0;i<s.length();i++){\r\n            char ch=s.charAt(i);\r\n            if(ch=='|'){\r\n                count++;\r\n            }\r\n            if(ch=='|'&&count==2) index1=i;\r\n        }\r\n        int count1=0;\r\n        for(int i=0;i<s.length();i++){\r\n            char ch=s.charAt(i);\r\n            if(ch=='|'&&count1<count-1){\r\n                count1++;\r\n                index2=i;\r\n            }\r\n        }\r\n        if(count==0) System.out.println(0);\r\n        else s=s.substring(index1,index2);\r\n        int ast=0;\r\n        for(int i=0;i<s.length();i++){\r\n            char ch=s.charAt(i);\r\n            if(ch=='*') ast++;\r\n        }\r\n        System.out.println(ast);\r\n        System.out.print(s);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/AsteriskCount.java b/src/AsteriskCount.java
+--- a/src/AsteriskCount.java	(revision 326c5175751744349ec9d52e7949717066d7cb0a)
++++ b/src/AsteriskCount.java	(date 1715694170222)
+@@ -1,4 +1,4 @@
+-public class AsteriskCOunt {
++public class AsteriskCount {
+     public static void main(String[] args){
+         String s="|**|*|*|**||***||";
+         int count=0,index1=0,index2=0;
