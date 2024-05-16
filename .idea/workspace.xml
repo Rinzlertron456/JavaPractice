@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushseclargest">
+      <change afterPath="$PROJECT_DIR$/src/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortArr0s1s2s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LongestSubArrwithSumK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LongestSubArrwithSumK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestSubArrwithSumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestSubArrwithSumK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +58,15 @@
     "Application.FindTheUnion.executor": "Run",
     "Application.LeftRotateArr.executor": "Run",
     "Application.LinearSearch.executor": "Run",
+    "Application.LongestSubArrwithSumK.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
     "Application.MoveZeroesToEnd.executor": "Run",
     "Application.RightRotateArr.executor": "Run",
-    "Application.RomanToInteger.executor": "Debug",
+    "Application.RomanToInteger.executor": "Run",
     "Application.SecLargestandSecSmallest.executor": "Run",
     "Application.SmallandSecSmallEleArr.executor": "Run",
+    "Application.SortArr0s1s2s.executor": "Run",
+    "Application.TwoSum.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -71,7 +81,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RomanToInteger">
+  <component name="RunManager" selected="Application.LongestSubArrwithSumK">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -81,13 +91,6 @@
     </configuration>
     <configuration name="DeCodeEnCode" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DeCodeEnCode" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindTheUnion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindTheUnion" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,22 +112,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftRotateArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeftRotateArr" />
+    <configuration name="LongestSubArrwithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestSubArrwithSumK" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinearSearch" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveZeroesToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MoveZeroesToEnd" />
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MajorityElement" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,8 +133,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortArr0s1s2s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortArr0s1s2s" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumeetNumber" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SumeetNumber" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoSum" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,19 +160,19 @@
       <item itemvalue="Application.SumeetNumber" />
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
+      <item itemvalue="Application.LongestSubArrwithSumK" />
+      <item itemvalue="Application.MajorityElement" />
+      <item itemvalue="Application.SortArr0s1s2s" />
+      <item itemvalue="Application.TwoSum" />
       <item itemvalue="Application.RomanToInteger" />
-      <item itemvalue="Application.FindTheUnion" />
-      <item itemvalue="Application.LeftRotateArr" />
-      <item itemvalue="Application.LinearSearch" />
-      <item itemvalue="Application.MoveZeroesToEnd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubArrwithSumK" />
+        <item itemvalue="Application.MajorityElement" />
+        <item itemvalue="Application.SortArr0s1s2s" />
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.RomanToInteger" />
-        <item itemvalue="Application.FindTheUnion" />
-        <item itemvalue="Application.LinearSearch" />
-        <item itemvalue="Application.MoveZeroesToEnd" />
-        <item itemvalue="Application.LeftRotateArr" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715693316233</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="pushseclargest">
+      <option name="closed" value="true" />
+      <created>1715693569309</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1715693569309</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
