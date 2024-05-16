@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushseclargest">
-      <change afterPath="$PROJECT_DIR$/src/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortArr0s1s2s.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KadanesAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PairWithMaxSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/FindTheUnion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/FindTheUnion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LongestSubArrwithSumK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LongestSubArrwithSumK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestSubArrwithSumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestSubArrwithSumK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SortArr0s1s2s.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SortArr0s1s2s.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AsteriskCount.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +40,12 @@
     &quot;assignee&quot;: &quot;Rinzlertron456&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Rinzlertron456/JavaPractice.git&quot;,
-    &quot;accountId&quot;: &quot;d2661be1-5f11-4b4b-8011-3f6efbe40da2&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Rinzlertron456/JavaPractice.git",
+    "accountId": "b2e0ef5f-2449-450a-a442-bb9155ff8427"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -56,11 +59,13 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.FindTheUnion.executor": "Run",
+    "Application.KadanesAlgorithm.executor": "Run",
     "Application.LeftRotateArr.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.LongestSubArrwithSumK.executor": "Run",
     "Application.MajorityElement.executor": "Run",
     "Application.MoveZeroesToEnd.executor": "Run",
+    "Application.PairWithMaxSum.executor": "Run",
     "Application.RightRotateArr.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
     "Application.SecLargestandSecSmallest.executor": "Run",
@@ -81,7 +86,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LongestSubArrwithSumK">
+  <component name="RunManager" selected="Application.PairWithMaxSum">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -112,6 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KadanesAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KadanesAlgorithm" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestSubArrwithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestSubArrwithSumK" />
       <module name="JavaPractice" />
@@ -126,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RomanToInteger" />
+    <configuration name="PairWithMaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PairWithMaxSum" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,32 +159,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoSum" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.AddDigNum" />
       <item itemvalue="Application.SumeetNumber" />
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
+      <item itemvalue="Application.KadanesAlgorithm" />
+      <item itemvalue="Application.PairWithMaxSum" />
       <item itemvalue="Application.LongestSubArrwithSumK" />
       <item itemvalue="Application.MajorityElement" />
       <item itemvalue="Application.SortArr0s1s2s" />
-      <item itemvalue="Application.TwoSum" />
-      <item itemvalue="Application.RomanToInteger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PairWithMaxSum" />
+        <item itemvalue="Application.KadanesAlgorithm" />
         <item itemvalue="Application.LongestSubArrwithSumK" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.SortArr0s1s2s" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.RomanToInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +342,8 @@
     <MESSAGE value="p" />
     <MESSAGE value="push" />
     <MESSAGE value="pushseclargest" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushseclargest" />
+    <MESSAGE value="pushsort" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushsort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
