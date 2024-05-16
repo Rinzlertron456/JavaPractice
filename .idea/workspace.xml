@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
-      <change beforePath="$PROJECT_DIR$/src/AsteriskCount.java" beforeDir="false" />
+    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushseclargest">
+      <change afterPath="$PROJECT_DIR$/src/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortArr0s1s2s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LongestSubArrwithSumK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LongestSubArrwithSumK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestSubArrwithSumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestSubArrwithSumK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,32 +52,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.FindTheUnion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeftRotateArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoveZeroesToEnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RightRotateArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RomanToInteger.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SecLargestandSecSmallest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmallandSecSmallEleArr.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;java&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.FindTheUnion.executor": "Run",
+    "Application.LeftRotateArr.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
+    "Application.LongestSubArrwithSumK.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
+    "Application.MoveZeroesToEnd.executor": "Run",
+    "Application.RightRotateArr.executor": "Run",
+    "Application.RomanToInteger.executor": "Run",
+    "Application.SecLargestandSecSmallest.executor": "Run",
+    "Application.SmallandSecSmallEleArr.executor": "Run",
+    "Application.SortArr0s1s2s.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "java",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/SR20464955/IdeaProjects/JavaPractice",
+    "onboarding.tips.debug.path": "/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.RomanToInteger">
+}]]></component>
+  <component name="RunManager" selected="Application.LongestSubArrwithSumK">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -81,13 +91,6 @@
     </configuration>
     <configuration name="DeCodeEnCode" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DeCodeEnCode" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindTheUnion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindTheUnion" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,22 +112,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftRotateArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeftRotateArr" />
+    <configuration name="LongestSubArrwithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestSubArrwithSumK" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinearSearch" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveZeroesToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MoveZeroesToEnd" />
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MajorityElement" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,8 +133,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortArr0s1s2s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortArr0s1s2s" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumeetNumber" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SumeetNumber" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoSum" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,19 +160,19 @@
       <item itemvalue="Application.SumeetNumber" />
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
+      <item itemvalue="Application.LongestSubArrwithSumK" />
+      <item itemvalue="Application.MajorityElement" />
+      <item itemvalue="Application.SortArr0s1s2s" />
+      <item itemvalue="Application.TwoSum" />
       <item itemvalue="Application.RomanToInteger" />
-      <item itemvalue="Application.FindTheUnion" />
-      <item itemvalue="Application.LeftRotateArr" />
-      <item itemvalue="Application.LinearSearch" />
-      <item itemvalue="Application.MoveZeroesToEnd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubArrwithSumK" />
+        <item itemvalue="Application.MajorityElement" />
+        <item itemvalue="Application.SortArr0s1s2s" />
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.RomanToInteger" />
-        <item itemvalue="Application.FindTheUnion" />
-        <item itemvalue="Application.LinearSearch" />
-        <item itemvalue="Application.MoveZeroesToEnd" />
-        <item itemvalue="Application.LeftRotateArr" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715693316233</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="pushseclargest">
+      <option name="closed" value="true" />
+      <created>1715693569309</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1715693569309</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
