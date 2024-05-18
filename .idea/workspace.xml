@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushseclargest">
-      <change afterPath="$PROJECT_DIR$/src/StockBuyAndSell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RearrangeArrEleByPosAndNeg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LongestSubArrwithSumK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LongestSubArrwithSumK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/KadanesAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/KadanesAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StockBuyAndSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StockBuyAndSell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,7 @@
     "Application.MajorityElement.executor": "Run",
     "Application.MoveZeroesToEnd.executor": "Run",
     "Application.PairWithMaxSum.executor": "Run",
+    "Application.RearrangeArrEleByPosAndNeg.executor": "Run",
     "Application.RightRotateArr.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
     "Application.SecLargestandSecSmallest.executor": "Run",
@@ -85,7 +86,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StockBuyAndSell">
+  <component name="RunManager" selected="Application.RearrangeArrEleByPosAndNeg">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -130,15 +131,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MajorityElement" />
+    <configuration name="PairWithMaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PairWithMaxSum" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairWithMaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PairWithMaxSum" />
+    <configuration name="RearrangeArrEleByPosAndNeg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RearrangeArrEleByPosAndNeg" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,19 +165,19 @@
       <item itemvalue="Application.SumeetNumber" />
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
+      <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
       <item itemvalue="Application.StockBuyAndSell" />
       <item itemvalue="Application.KadanesAlgorithm" />
       <item itemvalue="Application.PairWithMaxSum" />
       <item itemvalue="Application.LongestSubArrwithSumK" />
-      <item itemvalue="Application.MajorityElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
         <item itemvalue="Application.StockBuyAndSell" />
         <item itemvalue="Application.PairWithMaxSum" />
         <item itemvalue="Application.KadanesAlgorithm" />
         <item itemvalue="Application.LongestSubArrwithSumK" />
-        <item itemvalue="Application.MajorityElement" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715867520201</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="pushseclargest">
+      <option name="closed" value="true" />
+      <created>1715870815729</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1715870815729</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,9 +365,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="p" />
     <MESSAGE value="push" />
-    <MESSAGE value="pushseclargest" />
     <MESSAGE value="pushsort" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushsort" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/java' into java&#10;&#10;# Conflicts:&#10;#&#9;out/production/JavaPractice/MajorityElement.class" />
+    <MESSAGE value="pushseclargest" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushseclargest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
