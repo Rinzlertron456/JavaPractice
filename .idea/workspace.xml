@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushseclargest">
-      <change afterPath="$PROJECT_DIR$/src/RearrangeArrEleByPosAndNeg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-05-2024_14_38__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_24__2_33pm__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/KadanesAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/KadanesAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StockBuyAndSell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StockBuyAndSell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,39 +52,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.FindTheUnion.executor": "Run",
-    "Application.KadanesAlgorithm.executor": "Run",
-    "Application.LeftRotateArr.executor": "Run",
-    "Application.LinearSearch.executor": "Run",
-    "Application.LongestSubArrwithSumK.executor": "Run",
-    "Application.MajorityElement.executor": "Run",
-    "Application.MoveZeroesToEnd.executor": "Run",
-    "Application.PairWithMaxSum.executor": "Run",
-    "Application.RearrangeArrEleByPosAndNeg.executor": "Run",
-    "Application.RightRotateArr.executor": "Run",
-    "Application.RomanToInteger.executor": "Run",
-    "Application.SecLargestandSecSmallest.executor": "Run",
-    "Application.SmallandSecSmallEleArr.executor": "Run",
-    "Application.SortArr0s1s2s.executor": "Run",
-    "Application.StockBuyAndSell.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "java",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/SR20464955/IdeaProjects/JavaPractice",
-    "onboarding.tips.debug.path": "/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.FindTheUnion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KadanesAlgorithm.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftRotateArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubArrwithSumK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeroesToEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PairWithMaxSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RearrangeArrEleByPosAndNeg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RightRotateArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecLargestandSecSmallest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmallandSecSmallEleArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortArr0s1s2s.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StockBuyAndSell.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;java&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.RearrangeArrEleByPosAndNeg">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
