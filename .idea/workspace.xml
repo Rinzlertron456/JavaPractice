@@ -6,9 +6,28 @@
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushseclargest">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-05-2024_14_38__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_24__2_33pm__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14-05-2024_19_15_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14-05-2024_19_15__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/FibonacciSeries.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/FibonacciSeries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/GCDorHCF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/GCDorHCF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/IntegerToRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/IntegerToRoman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/KadanesAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/KadanesAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/KthCharDecryptStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/KthCharDecryptStr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LongestSubArrwithSumK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LongestSubArrwithSumK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MaxConsecutiveOnes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MaxConsecutiveOnes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/MissingNumberArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/MissingNumberArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/PairWithMaxSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/PairWithMaxSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RearrangeArrEleByPosAndNeg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RearrangeArrEleByPosAndNeg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RecursiveBubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RecursiveBubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RecursiveInsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RecursiveInsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/SingleFrequencyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/SingleFrequencyNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/StockBuyAndSell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/StockBuyAndSell.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +59,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Rinzlertron456/JavaPractice.git&quot;,
-    &quot;accountId&quot;: &quot;b2e0ef5f-2449-450a-a442-bb9155ff8427&quot;
+    &quot;accountId&quot;: &quot;fa9a9c19-66a5-4c8d-a254-c767a187f100&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -64,6 +83,7 @@
     &quot;Application.MoveZeroesToEnd.executor&quot;: &quot;Run&quot;,
     &quot;Application.PairWithMaxSum.executor&quot;: &quot;Run&quot;,
     &quot;Application.RearrangeArrEleByPosAndNeg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RichestCustomerWealth.executor&quot;: &quot;Run&quot;,
     &quot;Application.RightRotateArr.executor&quot;: &quot;Run&quot;,
     &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
     &quot;Application.SecLargestandSecSmallest.executor&quot;: &quot;Run&quot;,
@@ -79,13 +99,13 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RearrangeArrEleByPosAndNeg">
+  <component name="RunManager" selected="Application.RichestCustomerWealth">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -137,8 +157,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RearrangeArrEleByPosAndNeg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RearrangeArrEleByPosAndNeg" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RearrangeArrEleByPosAndNeg" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RichestCustomerWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="MAIN_CLASS_NAME" value="RichestCustomerWealth" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,6 +193,7 @@
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
+      <item itemvalue="Application.RichestCustomerWealth" />
       <item itemvalue="Application.StockBuyAndSell" />
       <item itemvalue="Application.KadanesAlgorithm" />
       <item itemvalue="Application.PairWithMaxSum" />
@@ -172,7 +201,7 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
+        <item itemvalue="Application.RichestCustomerWealth" />
         <item itemvalue="Application.StockBuyAndSell" />
         <item itemvalue="Application.PairWithMaxSum" />
         <item itemvalue="Application.KadanesAlgorithm" />
