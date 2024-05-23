@@ -1,0 +1,202 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_14-05-2024_19_15__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_14-05-2024_19_15__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_14-05-2024_19_15__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_14-05-2024_19_15__Changes_.xml	(revision 2a9dcfbbbd727e92afd69700cb8148a0ea84e175)
++++ /dev/null	(revision 2a9dcfbbbd727e92afd69700cb8148a0ea84e175)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_14-05-2024_19_15_[Changes]" date="1715694347811" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14-05-2024_19_15_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 14-05-2024 19:15 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: src/LeadersArray.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LeadersArray.java b/src/LeadersArray.java
+new file mode 100644
+--- /dev/null	(date 1716361066128)
++++ b/src/LeadersArray.java	(date 1716361066128)
+@@ -0,0 +1,15 @@
++import java.util.ArrayList;
++
++public class LeadersArray {
++    public static void main(String[] args) {
++        int[] A={1,2,3,4,0};
++        int n=6;
++        ArrayList<Integer> list=new ArrayList<>();
++        for (int i = 0; i < A.length; i++) {
++            boolean leader=true;
++            if(A[i]<A[i+1]) leader=false;
++            if(leader) list.add(A[i]);
++        }
++        System.out.println(list);
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"fd963c57-024b-4f52-ab73-a225d61d2eec\" name=\"Changes\" comment=\"pushseclargest\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-05-2024_14_38__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_24__2_33pm__Changes_1.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExportToHTMLSettings\">\r\n    <option name=\"OUTPUT_DIRECTORY\" value=\"$PROJECT_DIR$/exportToHTML\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Merge.Settings\">\r\n    <option name=\"BRANCH\" value=\"origin/java\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Rinzlertron456&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Rinzlertron456/JavaPractice.git&quot;,\r\n    &quot;accountId&quot;: &quot;b2e0ef5f-2449-450a-a442-bb9155ff8427&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2PejjbPUJEDh7R0vPB4C2Gg07ua\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;Application.FindTheUnion.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.KadanesAlgorithm.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.LeftRotateArr.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.LongestSubArrwithSumK.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.MoveZeroesToEnd.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.PairWithMaxSum.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.RearrangeArrEleByPosAndNeg.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.RightRotateArr.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.SecLargestandSecSmallest.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.SmallandSecSmallEleArr.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.SortArr0s1s2s.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.StockBuyAndSell.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;java&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.RearrangeArrEleByPosAndNeg\">\r\n    <configuration name=\"AddDigNum\" type=\"Application\" factoryName=\"Application\" singleton=\"false\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"AddDigNum\" />\r\n      <module name=\"JavaPractice\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"DeCodeEnCode\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"DeCodeEnCode\" />\r\n      <module name=\"JavaPractice\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"HillWeight\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"HillWeight\" />\r\n      <module name=\"JavaPractice\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"IntegerToRoman\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"11\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"IntegerToRoman\" />\r\n      <module name=\"JavaPractice\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"KadanesAlgorithm\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"KadanesAlgorithm\" />\r\n      <module name=\"JavaPractice\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"LongestSubArrwithSumK\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"LongestSubArrwithSumK\" />\r\n      <module name=\"JavaPractice\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"PairWithMaxSum\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"PairWithMaxSum\" />\r\n      <module name=\"JavaPractice\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"RearrangeArrEleByPosAndNeg\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"RearrangeArrEleByPosAndNeg\" />\r\n      <module name=\"JavaPractice\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"StockBuyAndSell\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"StockBuyAndSell\" />\r\n      <module name=\"JavaPractice\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"SumeetNumber\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"SumeetNumber\" />\r\n      <module name=\"JavaPractice\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Application.IntegerToRoman\" />\r\n      <item itemvalue=\"Application.AddDigNum\" />\r\n      <item itemvalue=\"Application.SumeetNumber\" />\r\n      <item itemvalue=\"Application.HillWeight\" />\r\n      <item itemvalue=\"Application.DeCodeEnCode\" />\r\n      <item itemvalue=\"Application.RearrangeArrEleByPosAndNeg\" />\r\n      <item itemvalue=\"Application.StockBuyAndSell\" />\r\n      <item itemvalue=\"Application.KadanesAlgorithm\" />\r\n      <item itemvalue=\"Application.PairWithMaxSum\" />\r\n      <item itemvalue=\"Application.LongestSubArrwithSumK\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.RearrangeArrEleByPosAndNeg\" />\r\n        <item itemvalue=\"Application.StockBuyAndSell\" />\r\n        <item itemvalue=\"Application.PairWithMaxSum\" />\r\n        <item itemvalue=\"Application.KadanesAlgorithm\" />\r\n        <item itemvalue=\"Application.LongestSubArrwithSumK\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SvnConfiguration\" cleanupOnStartRun=\"true\">\r\n    <configuration>$USER_HOME$/.subversion</configuration>\r\n    <supportedVersion>125</supportedVersion>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"fd963c57-024b-4f52-ab73-a225d61d2eec\" name=\"Changes\" comment=\"\" />\r\n      <created>1683824581474</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1683824581474</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"push\">\r\n      <created>1688613743671</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1688613743671</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"push\">\r\n      <created>1688622719223</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1688622719223</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"push\">\r\n      <created>1688622736447</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1688622736447</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"push\">\r\n      <created>1688624406277</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1688624406277</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"push\">\r\n      <created>1688624551491</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1688624551491</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"push\">\r\n      <created>1688624561233</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1688624561233</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"push\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1698907027321</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1698907027321</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"push\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714195555732</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714195555732</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"pushseclargest\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714469399058</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714469399058</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"pushseclargest\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714469423749</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714469423749</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"pushseclargest\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714493193279</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714493193279</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"pushseclargest\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714493284049</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714493284049</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"pushseclargest\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714668982667</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714668982667</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"pushseclargest\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1715060507470</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1715060507470</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"pushseclargest\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1715693294661</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1715693294661</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"pushseclargest\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1715693316233</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1715693316233</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"pushseclargest\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1715693569309</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1715693569309</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"pushseclargest\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1715859002347</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1715859002347</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"pushseclargest\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1715867520201</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1715867520201</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"pushseclargest\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1715870815729</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1715870815729</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"21\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"p\" />\r\n    <MESSAGE value=\"push\" />\r\n    <MESSAGE value=\"pushsort\" />\r\n    <MESSAGE value=\"Merge remote-tracking branch 'origin/java' into java&#10;&#10;# Conflicts:&#10;#&#9;out/production/JavaPractice/MajorityElement.class\" />\r\n    <MESSAGE value=\"pushseclargest\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"pushseclargest\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.lang.NullPointerException\" package=\"java.lang\" />\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/RomanToInteger.java</url>\r\n          <line>63</line>\r\n          <option name=\"timeStamp\" value=\"10\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 2a9dcfbbbd727e92afd69700cb8148a0ea84e175)
++++ b/.idea/workspace.xml	(date 1716358535065)
+@@ -4,10 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushseclargest">
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-05-2024_14_38__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_24__2_33pm__Changes_1.xml" beforeDir="false" />
++    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
++      <change afterPath="$PROJECT_DIR$/src/LeadersArray.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14-05-2024_19_15_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14-05-2024_19_15__Changes_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -52,40 +52,41 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;Application.FindTheUnion.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.KadanesAlgorithm.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.LeftRotateArr.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.LongestSubArrwithSumK.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.MoveZeroesToEnd.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.PairWithMaxSum.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.RearrangeArrEleByPosAndNeg.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.RightRotateArr.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.SecLargestandSecSmallest.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.SmallandSecSmallEleArr.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.SortArr0s1s2s.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.StockBuyAndSell.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;java&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice&quot;,
+-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "Application.FindTheUnion.executor": "Run",
++    "Application.KadanesAlgorithm.executor": "Run",
++    "Application.LeadersArray.executor": "Run",
++    "Application.LeftRotateArr.executor": "Run",
++    "Application.LinearSearch.executor": "Run",
++    "Application.LongestSubArrwithSumK.executor": "Run",
++    "Application.MajorityElement.executor": "Run",
++    "Application.MoveZeroesToEnd.executor": "Run",
++    "Application.PairWithMaxSum.executor": "Run",
++    "Application.RearrangeArrEleByPosAndNeg.executor": "Run",
++    "Application.RightRotateArr.executor": "Run",
++    "Application.RomanToInteger.executor": "Run",
++    "Application.SecLargestandSecSmallest.executor": "Run",
++    "Application.SmallandSecSmallEleArr.executor": "Run",
++    "Application.SortArr0s1s2s.executor": "Run",
++    "Application.StockBuyAndSell.executor": "Run",
++    "Application.TwoSum.executor": "Run",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "git-widget-placeholder": "java",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "/Users/SR20464955/IdeaProjects/JavaPractice",
++    "onboarding.tips.debug.path": "/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java",
++    "project.structure.last.edited": "Project",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.2",
++    "run.code.analysis.last.selected.profile": "pProject Default",
++    "settings.editor.selected.configurable": "preferences.pluginManager"
+   }
+-}</component>
+-  <component name="RunManager" selected="Application.RearrangeArrEleByPosAndNeg">
++}]]></component>
++  <component name="RunManager" selected="Application.LeadersArray">
+     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
+       <module name="JavaPractice" />
+@@ -123,8 +124,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="LongestSubArrwithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="LongestSubArrwithSumK" />
++    <configuration name="LeadersArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="LeadersArray" />
+       <module name="JavaPractice" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+@@ -164,19 +165,19 @@
+       <item itemvalue="Application.SumeetNumber" />
+       <item itemvalue="Application.HillWeight" />
+       <item itemvalue="Application.DeCodeEnCode" />
++      <item itemvalue="Application.LeadersArray" />
+       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
+       <item itemvalue="Application.StockBuyAndSell" />
+       <item itemvalue="Application.KadanesAlgorithm" />
+       <item itemvalue="Application.PairWithMaxSum" />
+-      <item itemvalue="Application.LongestSubArrwithSumK" />
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.LeadersArray" />
+         <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
+         <item itemvalue="Application.StockBuyAndSell" />
+         <item itemvalue="Application.PairWithMaxSum" />
+         <item itemvalue="Application.KadanesAlgorithm" />
+-        <item itemvalue="Application.LongestSubArrwithSumK" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -347,7 +348,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1715870815729</updated>
+     </task>
+-    <option name="localTasksCounter" value="21" />
++    <task id="LOCAL-00021" summary="pushsort">
++      <option name="closed" value="true" />
++      <created>1716013912619</created>
++      <option name="number" value="00021" />
++      <option name="presentableId" value="LOCAL-00021" />
++      <option name="project" value="LOCAL" />
++      <updated>1716013912619</updated>
++    </task>
++    <option name="localTasksCounter" value="22" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -364,10 +373,10 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="p" />
+     <MESSAGE value="push" />
+-    <MESSAGE value="pushsort" />
+     <MESSAGE value="Merge remote-tracking branch 'origin/java' into java&#10;&#10;# Conflicts:&#10;#&#9;out/production/JavaPractice/MajorityElement.class" />
+     <MESSAGE value="pushseclargest" />
+-    <option name="LAST_COMMIT_MESSAGE" value="pushseclargest" />
++    <MESSAGE value="pushsort" />
++    <option name="LAST_COMMIT_MESSAGE" value="pushsort" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_14-05-2024_19_15_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_14-05-2024_19_15_[Changes]/shelved.patch
+deleted file mode 100644
