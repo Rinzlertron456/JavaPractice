@@ -8,7 +8,6 @@ public class LeadersArray {
 
         for (int i = 0; i < A.length; ++i) {
             boolean leader = true;
-
             for (int j = i + 1; j < A.length; ++j) {
                 if (A[i] < A[j]) {
                     leader = false;
