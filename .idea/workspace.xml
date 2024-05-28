@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
-      <change afterPath="$PROJECT_DIR$/src/AllPermutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LongestConsecutiveSubArr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16-05-2024_20_18_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16-05-2024_20_18__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_05_24__11_06am__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_05_24__11_06am__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_05_24__9_46am__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_05_24__9_46am__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_05_24__9_58am__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_05_24__9_58am__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SetMatrixZeroes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestConsecutiveSubArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestConsecutiveSubArr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +71,7 @@
     "Application.RightRotateArr.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
     "Application.SecLargestandSecSmallest.executor": "Run",
+    "Application.SetMatrixZeroes.executor": "Run",
     "Application.SmallandSecSmallEleArr.executor": "Run",
     "Application.SortArr0s1s2s.executor": "Run",
     "Application.StockBuyAndSell.executor": "Run",
@@ -94,7 +90,7 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LongestConsecutiveSubArr">
+  <component name="RunManager" selected="Application.SetMatrixZeroes">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -162,8 +158,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockBuyAndSell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StockBuyAndSell" />
+    <configuration name="SetMatrixZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetMatrixZeroes" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,19 +179,19 @@
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
+      <item itemvalue="Application.SetMatrixZeroes" />
       <item itemvalue="Application.LongestConsecutiveSubArr" />
       <item itemvalue="Application.AllPermutations" />
       <item itemvalue="Application.LeadersArray" />
       <item itemvalue="Application.RichestCustomerWealth" />
-      <item itemvalue="Application.StockBuyAndSell" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetMatrixZeroes" />
         <item itemvalue="Application.LongestConsecutiveSubArr" />
         <item itemvalue="Application.AllPermutations" />
         <item itemvalue="Application.LeadersArray" />
         <item itemvalue="Application.RichestCustomerWealth" />
-        <item itemvalue="Application.StockBuyAndSell" />
       </list>
     </recent_temporary>
   </component>
