@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/AsteriskCOunt.class" afterDir="false" />
-    </list>
+    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushseclargest" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,12 +32,12 @@
     &quot;assignee&quot;: &quot;Rinzlertron456&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Rinzlertron456/JavaPractice.git&quot;,
-    &quot;accountId&quot;: &quot;b2e0ef5f-2449-450a-a442-bb9155ff8427&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Rinzlertron456/JavaPractice.git",
+    "accountId": "fa9a9c19-66a5-4c8d-a254-c767a187f100"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -54,6 +52,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.AllPermutations.executor": "Run",
     "Application.FindTheUnion.executor": "Run",
+    "Application.GCDofStrings.executor": "Run",
     "Application.KadanesAlgorithm.executor": "Run",
     "Application.LeadersArray.executor": "Run",
     "Application.LeftRotateArr.executor": "Run",
@@ -72,7 +71,7 @@
     "Application.SmallandSecSmallEleArr.executor": "Run",
     "Application.SortArr0s1s2s.executor": "Run",
     "Application.StockBuyAndSell.executor": "Run",
-    "Application.SumOfSeries.executor": "Run",
+    "Application.TicTacToe.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -88,7 +87,7 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SumOfSeries">
+  <component name="RunManager" selected="Application.TicTacToe">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -110,6 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GCDofStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GCDofStrings" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HillWeight" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HillWeight" />
       <module name="JavaPractice" />
@@ -121,14 +127,6 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="IntegerToRoman" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeadersArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="MAIN_CLASS_NAME" value="LeadersArray" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,15 +153,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumOfSeries" />
+    <configuration name="SumeetNumber" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumeetNumber" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumeetNumber" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumeetNumber" />
+    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TicTacToe" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,19 +174,19 @@
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
-      <item itemvalue="Application.SumOfSeries" />
+      <item itemvalue="Application.GCDofStrings" />
+      <item itemvalue="Application.TicTacToe" />
       <item itemvalue="Application.SetMatrixZeroes" />
       <item itemvalue="Application.LongestConsecutiveSubArr" />
       <item itemvalue="Application.AllPermutations" />
-      <item itemvalue="Application.LeadersArray" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumOfSeries" />
-        <item itemvalue="Application.SetMatrixZeroes" />
+        <item itemvalue="Application.TicTacToe" />
+        <item itemvalue="Application.GCDofStrings" />
         <item itemvalue="Application.LongestConsecutiveSubArr" />
+        <item itemvalue="Application.SetMatrixZeroes" />
         <item itemvalue="Application.AllPermutations" />
-        <item itemvalue="Application.LeadersArray" />
       </list>
     </recent_temporary>
   </component>
@@ -415,15 +413,47 @@
       <option name="project" value="LOCAL" />
       <updated>1716442390623</updated>
     </task>
-    <task id="LOCAL-00028" summary="pushsort">
+    <task id="LOCAL-00028" summary="pushseclargest">
       <option name="closed" value="true" />
-      <created>1722525652625</created>
+      <created>1716912929838</created>
       <option name="number" value="00028" />
       <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1722525652625</updated>
+      <updated>1716912929838</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="pushseclargest">
+      <option name="closed" value="true" />
+      <created>1722491308625</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1722491308625</updated>
+    </task>
+    <task id="LOCAL-00030" summary="pushseclargest">
+      <option name="closed" value="true" />
+      <created>1722491377700</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1722491377700</updated>
+    </task>
+    <task id="LOCAL-00031" summary="pushseclargest">
+      <option name="closed" value="true" />
+      <created>1722495991275</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1722495991275</updated>
+    </task>
+    <task id="LOCAL-00032" summary="pushseclargest">
+      <option name="closed" value="true" />
+      <created>1722496011127</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1722496011127</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,9 +471,9 @@
     <MESSAGE value="p" />
     <MESSAGE value="push" />
     <MESSAGE value="Merge remote-tracking branch 'origin/java' into java&#10;&#10;# Conflicts:&#10;#&#9;out/production/JavaPractice/MajorityElement.class" />
-    <MESSAGE value="pushseclargest" />
     <MESSAGE value="pushsort" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushsort" />
+    <MESSAGE value="pushseclargest" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushseclargest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
