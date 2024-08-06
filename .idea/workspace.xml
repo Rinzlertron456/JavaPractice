@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +54,6 @@
     &quot;Application.EditDistance.executor&quot;: &quot;Run&quot;,
     &quot;Application.FindTheUnion.executor&quot;: &quot;Run&quot;,
     &quot;Application.GCDofStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GradeChecker.executor&quot;: &quot;Run&quot;,
     &quot;Application.KadanesAlgorithm.executor&quot;: &quot;Run&quot;,
     &quot;Application.LeadersArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.LeftRotateArr.executor&quot;: &quot;Run&quot;,
@@ -92,7 +89,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GradeChecker">
+  <component name="RunManager" selected="Application.SumofArr">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -121,13 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GradeChecker" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HillWeight" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HillWeight" />
       <module name="JavaPractice" />
@@ -139,6 +129,13 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="IntegerToRoman" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestConsecutiveSubArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSubArr" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,25 +170,25 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AddDigNum" />
-      <item itemvalue="Application.DeCodeEnCode" />
-      <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.IntegerToRoman" />
-      <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
+      <item itemvalue="Application.AddDigNum" />
       <item itemvalue="Application.SumeetNumber" />
+      <item itemvalue="Application.HillWeight" />
+      <item itemvalue="Application.DeCodeEnCode" />
+      <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
       <item itemvalue="Application.EditDistance" />
-      <item itemvalue="Application.GCDofStrings" />
-      <item itemvalue="Application.GradeChecker" />
       <item itemvalue="Application.SumofArr" />
+      <item itemvalue="Application.GCDofStrings" />
       <item itemvalue="Application.TicTacToe" />
+      <item itemvalue="Application.LongestConsecutiveSubArr" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GradeChecker" />
         <item itemvalue="Application.SumofArr" />
         <item itemvalue="Application.EditDistance" />
         <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.GCDofStrings" />
+        <item itemvalue="Application.LongestConsecutiveSubArr" />
       </list>
     </recent_temporary>
   </component>
@@ -474,23 +471,7 @@
       <option name="project" value="LOCAL" />
       <updated>1722571972596</updated>
     </task>
-    <task id="LOCAL-00035" summary="pushsort">
-      <option name="closed" value="true" />
-      <created>1722581464679</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1722581464679</updated>
-    </task>
-    <task id="LOCAL-00036" summary="pushsort">
-      <option name="closed" value="true" />
-      <created>1722950244897</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1722950244897</updated>
-    </task>
-    <option name="localTasksCounter" value="37" />
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
