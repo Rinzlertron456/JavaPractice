@@ -1,0 +1,12 @@
+Index: src/GradingStudents.java
+===================================================================
+diff --git a/src/GradingStudents.java b/src/GradingStudents.java
+deleted file mode 100644
+--- a/src/GradingStudents.java	(revision d5601b53456fd170fd44273363133466fc052dca)
++++ /dev/null	(revision d5601b53456fd170fd44273363133466fc052dca)
+@@ -1,5 +0,0 @@
+-public class GradingStudents {
+-    public static void main(String[] args){
+-
+-    }
+-}

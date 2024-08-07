@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
+      <change afterPath="$PROJECT_DIR$/src/DetermineTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GreatestNumberOfThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PasswordStrength.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/GradeChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/GradeChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/GradingStudents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GradeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GradeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanToInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,49 +56,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.AllPermutations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EditDistance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindTheUnion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GCDofStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KadanesAlgorithm.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeadersArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeftRotateArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestConsecutiveSubArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubArrwithSumK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoveZeroesToEnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PairWithMaxSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RearrangeArrEleByPosAndNeg.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RichestCustomerWealth.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RightRotateArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecLargestandSecSmallest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetMatrixZeroes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmallandSecSmallEleArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortArr0s1s2s.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StockBuyAndSell.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumofArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;java&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AllPermutations.executor": "Run",
+    "Application.DetermineTriangle.executor": "Run",
+    "Application.EditDistance.executor": "Run",
+    "Application.FindTheUnion.executor": "Run",
+    "Application.GCDofStrings.executor": "Run",
+    "Application.GreatestNumberOfThree.executor": "Run",
+    "Application.KadanesAlgorithm.executor": "Run",
+    "Application.LeadersArray.executor": "Run",
+    "Application.LeftRotateArr.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
+    "Application.LongestConsecutiveSubArr.executor": "Run",
+    "Application.LongestSubArrwithSumK.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
+    "Application.MoveZeroesToEnd.executor": "Run",
+    "Application.PairWithMaxSum.executor": "Run",
+    "Application.PasswordStrength.executor": "Run",
+    "Application.RearrangeArrEleByPosAndNeg.executor": "Run",
+    "Application.RichestCustomerWealth.executor": "Run",
+    "Application.RightRotateArr.executor": "Run",
+    "Application.RomanToInteger.executor": "Run",
+    "Application.SecLargestandSecSmallest.executor": "Run",
+    "Application.SetMatrixZeroes.executor": "Run",
+    "Application.SmallandSecSmallEleArr.executor": "Run",
+    "Application.SortArr0s1s2s.executor": "Run",
+    "Application.StockBuyAndSell.executor": "Run",
+    "Application.SumofArr.executor": "Run",
+    "Application.TicTacToe.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "java",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/SR20464955/IdeaProjects/JavaPractice",
+    "onboarding.tips.debug.path": "/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
-  <component name="RunManager" selected="Application.SumofArr">
+}]]></component>
+  <component name="RunManager" selected="Application.RomanToInteger">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -106,15 +116,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EditDistance" />
+    <configuration name="DetermineTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DetermineTriangle" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCDofStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GCDofStrings" />
+    <configuration name="GreatestNumberOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GreatestNumberOfThree" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,8 +146,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestConsecutiveSubArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSubArr" />
+    <configuration name="PasswordStrength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PasswordStrength" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,6 +155,13 @@
     </configuration>
     <configuration name="RearrangeArrEleByPosAndNeg" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RearrangeArrEleByPosAndNeg" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RomanToInteger" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,13 +181,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TicTacToe" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.AddDigNum" />
@@ -178,19 +188,19 @@
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
-      <item itemvalue="Application.EditDistance" />
+      <item itemvalue="Application.DetermineTriangle" />
+      <item itemvalue="Application.GreatestNumberOfThree" />
+      <item itemvalue="Application.PasswordStrength" />
+      <item itemvalue="Application.RomanToInteger" />
       <item itemvalue="Application.SumofArr" />
-      <item itemvalue="Application.GCDofStrings" />
-      <item itemvalue="Application.TicTacToe" />
-      <item itemvalue="Application.LongestConsecutiveSubArr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RomanToInteger" />
+        <item itemvalue="Application.PasswordStrength" />
+        <item itemvalue="Application.DetermineTriangle" />
+        <item itemvalue="Application.GreatestNumberOfThree" />
         <item itemvalue="Application.SumofArr" />
-        <item itemvalue="Application.EditDistance" />
-        <item itemvalue="Application.TicTacToe" />
-        <item itemvalue="Application.GCDofStrings" />
-        <item itemvalue="Application.LongestConsecutiveSubArr" />
       </list>
     </recent_temporary>
   </component>
@@ -512,7 +522,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/RomanToInteger.java</url>
-          <line>63</line>
+          <line>80</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>

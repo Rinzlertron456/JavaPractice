@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //Write a Java program that prompts the user to enter their score (an integer between 0 and 100). The program should then print the corresponding grade based on the following criteria:
 //A: 90-100
 //B: 80-89
@@ -7,7 +9,8 @@
 //Expected Output: If the user inputs "85", the program should output: "Your grade is B."
 public class GradeChecker {
     public static void main(String[] args) {
-        int score=54;
+        Scanner sc=new Scanner(System.in);
+        int score=sc.nextInt();
         char Grade=(score>=90)?'A':(score>=80)?'B':(score>=70)?'C':(score>=60)?'D':'F';
         System.out.println("Grade:"+Grade);
     }
