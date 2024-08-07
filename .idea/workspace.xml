@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
-      <change afterPath="$PROJECT_DIR$/src/DetermineTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GreatestNumberOfThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PasswordStrength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_08_24__7_30pm__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_08_24__7_30pm__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_08_24__11_27am__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_08_24__11_27am__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/GradeChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/GradeChecker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/GradingStudents.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GradeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GradeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanToInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +74,7 @@
     "Application.PairWithMaxSum.executor": "Run",
     "Application.PasswordStrength.executor": "Run",
     "Application.RearrangeArrEleByPosAndNeg.executor": "Run",
+    "Application.ReverseDigits.executor": "Run",
     "Application.RichestCustomerWealth.executor": "Run",
     "Application.RightRotateArr.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
@@ -101,7 +100,7 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RomanToInteger">
+  <component name="RunManager" selected="Application.ReverseDigits">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -160,6 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseDigits" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RomanToInteger" />
       <module name="JavaPractice" />
@@ -174,13 +180,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumofArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumofArr" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.AddDigNum" />
@@ -188,19 +187,19 @@
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
+      <item itemvalue="Application.ReverseDigits" />
       <item itemvalue="Application.DetermineTriangle" />
       <item itemvalue="Application.GreatestNumberOfThree" />
       <item itemvalue="Application.PasswordStrength" />
       <item itemvalue="Application.RomanToInteger" />
-      <item itemvalue="Application.SumofArr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseDigits" />
         <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.PasswordStrength" />
         <item itemvalue="Application.DetermineTriangle" />
         <item itemvalue="Application.GreatestNumberOfThree" />
-        <item itemvalue="Application.SumofArr" />
       </list>
     </recent_temporary>
   </component>
@@ -522,7 +521,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/RomanToInteger.java</url>
-          <line>80</line>
+          <line>79</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>

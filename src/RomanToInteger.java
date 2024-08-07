@@ -10,12 +10,12 @@ public class RomanToInteger {
         RomanValues.put('C',100);
         RomanValues.put('D',500);
         RomanValues.put('M',1000);
-        String input="LVIII";
+        String input="MCMXCIV";
         char[] roman={'I','V','X','L','C','D','M'};
         int[] values={1,5,10,50,100,500,1000};
         char[] romans=input.toCharArray();
         int res=0, prev=0;
-        for (int i = 0; i < romans.length; i++) {
+        for (int i = romans.length-1; i >= 0; i--) {
             int curr=0;
             for (int j = 0; j < roman.length; j++) {
                 if(romans[i]==roman[j]) {
@@ -23,9 +23,8 @@ public class RomanToInteger {
                     break;
                 }
             }
-            if(curr>prev) res+=curr;
-            else res-=curr;
-            System.out.println(res);
+            if(curr<prev) res-=curr;
+            else res+=curr;
             prev=curr;
         }
 
