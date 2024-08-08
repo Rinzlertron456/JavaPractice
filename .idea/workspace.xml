@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
-      <change afterPath="$PROJECT_DIR$/src/ReverseDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_08_24__7_30pm__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_08_24__7_30pm__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_08_24__11_27am__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_08_24__11_27am__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrimeNumberCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RomanToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ReverseDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ReverseDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PasswordStrength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PasswordStrength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseDigits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +72,7 @@
     "Application.MoveZeroesToEnd.executor": "Run",
     "Application.PairWithMaxSum.executor": "Run",
     "Application.PasswordStrength.executor": "Run",
+    "Application.PrimeNumberCheck.executor": "Run",
     "Application.RearrangeArrEleByPosAndNeg.executor": "Run",
     "Application.ReverseDigits.executor": "Run",
     "Application.RichestCustomerWealth.executor": "Run",
@@ -100,7 +100,7 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReverseDigits">
+  <component name="RunManager" selected="Application.PrimeNumberCheck">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -117,13 +117,6 @@
     </configuration>
     <configuration name="DetermineTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DetermineTriangle" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GreatestNumberOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GreatestNumberOfThree" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,6 +140,13 @@
     </configuration>
     <configuration name="PasswordStrength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PasswordStrength" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeNumberCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeNumberCheck" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,19 +187,19 @@
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
+      <item itemvalue="Application.PrimeNumberCheck" />
       <item itemvalue="Application.ReverseDigits" />
       <item itemvalue="Application.DetermineTriangle" />
-      <item itemvalue="Application.GreatestNumberOfThree" />
       <item itemvalue="Application.PasswordStrength" />
       <item itemvalue="Application.RomanToInteger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeNumberCheck" />
         <item itemvalue="Application.ReverseDigits" />
         <item itemvalue="Application.RomanToInteger" />
         <item itemvalue="Application.PasswordStrength" />
         <item itemvalue="Application.DetermineTriangle" />
-        <item itemvalue="Application.GreatestNumberOfThree" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722952828525</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1723049610731</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1723049610731</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
