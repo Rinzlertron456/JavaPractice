@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
-      <change afterPath="$PROJECT_DIR$/src/PrimeNumberCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DigitSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HalfDiamond.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/GreatestNumberOfThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/GreatestNumberOfThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/PasswordStrength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/PasswordStrength.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ReverseDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ReverseDigits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PasswordStrength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PasswordStrength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GreatestNumberOfThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GreatestNumberOfThree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +60,12 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.AllPermutations.executor": "Run",
     "Application.DetermineTriangle.executor": "Run",
+    "Application.DigitSum.executor": "Run",
     "Application.EditDistance.executor": "Run",
     "Application.FindTheUnion.executor": "Run",
     "Application.GCDofStrings.executor": "Run",
     "Application.GreatestNumberOfThree.executor": "Run",
+    "Application.HalfDiamond.executor": "Run",
     "Application.KadanesAlgorithm.executor": "Run",
     "Application.LeadersArray.executor": "Run",
     "Application.LeftRotateArr.executor": "Run",
@@ -100,7 +104,7 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrimeNumberCheck">
+  <component name="RunManager" selected="Application.HalfDiamond">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -115,8 +119,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetermineTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DetermineTriangle" />
+    <configuration name="DigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DigitSum" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HalfDiamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HalfDiamond" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,13 +144,6 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="IntegerToRoman" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasswordStrength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PasswordStrength" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,19 +191,19 @@
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
+      <item itemvalue="Application.DigitSum" />
+      <item itemvalue="Application.HalfDiamond" />
       <item itemvalue="Application.PrimeNumberCheck" />
       <item itemvalue="Application.ReverseDigits" />
-      <item itemvalue="Application.DetermineTriangle" />
-      <item itemvalue="Application.PasswordStrength" />
       <item itemvalue="Application.RomanToInteger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HalfDiamond" />
+        <item itemvalue="Application.DigitSum" />
         <item itemvalue="Application.PrimeNumberCheck" />
         <item itemvalue="Application.ReverseDigits" />
         <item itemvalue="Application.RomanToInteger" />
-        <item itemvalue="Application.PasswordStrength" />
-        <item itemvalue="Application.DetermineTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -498,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723049610731</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1723101011920</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1723101011920</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
