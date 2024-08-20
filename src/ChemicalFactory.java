@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 //[2:35 pm] Sreeramula Vinayak Santhosh
 //Problem 6:Chemical Factory
 //Description
@@ -34,7 +36,24 @@
 //
 public class ChemicalFactory {
     public static void main(String[] args) {
-        String[] words={"abc","abcabc"};
-
+        String[] words={"hacker", "int", "niitnt", "hackhackerer", "long"};
+        int explosive=0;
+        ArrayList<String> exparr=new ArrayList<>();
+        for (int i = 0; i < words.length; i++) {
+            char[] letters=words[i].toCharArray();
+            boolean check=false;
+            for (int j = i+1; j < words.length; j++) {
+                char[] completters=words[j].toCharArray();
+                for (int k = 0; k < completters.length; k++) {
+                    if(words[i].contains(completters[k]+"")) check=true;
+                    else check=false;
+                }
+                if(check==true) {
+                    exparr.add(words[i]);
+                    exparr.add(words[j]);
+                }
+            }
+        }
+        System.out.println(exparr.size()/2);
     }
 }
