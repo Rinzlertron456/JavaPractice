@@ -1,3 +1,5 @@
+//Question: Write a Java program that asks the user to enter three integers. The program should then determine and print the largest of the three numbers.
+//Expected Output: If the user inputs "12", "7", and "20", the program should output: "The largest number is 20."
 import java.util.Arrays;
 import java.util.Scanner;
 

@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushseclargest">
-      <change afterPath="$PROJECT_DIR$/src/ChemicalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TelephoneBill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01-08-2024_20_27_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01-08-2024_20_27__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02-08-2024_09_40_[Changes]/AsteriskCOunt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02-08-2024_09_40_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02-08-2024_09_40__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_08_24,_12_48 pm_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_08_24__12_48pm__Changes_.xml" beforeDir="false" />
+    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
+      <change afterPath="$PROJECT_DIR$/src/DigitSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HalfDiamond.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/RomanToInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/GreatestNumberOfThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/GreatestNumberOfThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/PasswordStrength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/PasswordStrength.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ReverseDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ReverseDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GreatestNumberOfThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GreatestNumberOfThree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Rinzlertron456/JavaPractice.git&quot;,
-    &quot;accountId&quot;: &quot;fa9a9c19-66a5-4c8d-a254-c767a187f100&quot;
+    &quot;accountId&quot;: &quot;3d813291-c437-49ea-a04c-03c5dd46f24b&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -64,10 +60,12 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.AllPermutations.executor": "Run",
     "Application.DetermineTriangle.executor": "Run",
+    "Application.DigitSum.executor": "Run",
     "Application.EditDistance.executor": "Run",
     "Application.FindTheUnion.executor": "Run",
     "Application.GCDofStrings.executor": "Run",
     "Application.GreatestNumberOfThree.executor": "Run",
+    "Application.HalfDiamond.executor": "Run",
     "Application.KadanesAlgorithm.executor": "Run",
     "Application.LeadersArray.executor": "Run",
     "Application.LeftRotateArr.executor": "Run",
@@ -78,7 +76,9 @@
     "Application.MoveZeroesToEnd.executor": "Run",
     "Application.PairWithMaxSum.executor": "Run",
     "Application.PasswordStrength.executor": "Run",
+    "Application.PrimeNumberCheck.executor": "Run",
     "Application.RearrangeArrEleByPosAndNeg.executor": "Run",
+    "Application.ReverseDigits.executor": "Run",
     "Application.RichestCustomerWealth.executor": "Run",
     "Application.RightRotateArr.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
@@ -88,7 +88,6 @@
     "Application.SortArr0s1s2s.executor": "Run",
     "Application.StockBuyAndSell.executor": "Run",
     "Application.SumofArr.executor": "Run",
-    "Application.TelephoneBill.executor": "Run",
     "Application.TicTacToe.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -105,7 +104,7 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TelephoneBill">
+  <component name="RunManager" selected="Application.HalfDiamond">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -120,15 +119,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetermineTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DetermineTriangle" />
+    <configuration name="DigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DigitSum" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreatestNumberOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GreatestNumberOfThree" />
+    <configuration name="HalfDiamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HalfDiamond" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,8 +149,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordStrength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PasswordStrength" />
+    <configuration name="PrimeNumberCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeNumberCheck" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,6 +158,13 @@
     </configuration>
     <configuration name="RearrangeArrEleByPosAndNeg" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RearrangeArrEleByPosAndNeg" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseDigits" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,13 +184,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelephoneBill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TelephoneBill" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.AddDigNum" />
@@ -192,19 +191,19 @@
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
-      <item itemvalue="Application.TelephoneBill" />
-      <item itemvalue="Application.DetermineTriangle" />
-      <item itemvalue="Application.GreatestNumberOfThree" />
-      <item itemvalue="Application.PasswordStrength" />
+      <item itemvalue="Application.DigitSum" />
+      <item itemvalue="Application.HalfDiamond" />
+      <item itemvalue="Application.PrimeNumberCheck" />
+      <item itemvalue="Application.ReverseDigits" />
       <item itemvalue="Application.RomanToInteger" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TelephoneBill" />
+        <item itemvalue="Application.HalfDiamond" />
+        <item itemvalue="Application.DigitSum" />
+        <item itemvalue="Application.PrimeNumberCheck" />
+        <item itemvalue="Application.ReverseDigits" />
         <item itemvalue="Application.RomanToInteger" />
-        <item itemvalue="Application.PasswordStrength" />
-        <item itemvalue="Application.DetermineTriangle" />
-        <item itemvalue="Application.GreatestNumberOfThree" />
       </list>
     </recent_temporary>
   </component>
@@ -495,21 +494,21 @@
       <option name="project" value="LOCAL" />
       <updated>1722952828525</updated>
     </task>
-    <task id="LOCAL-00036" summary="pushseclargest">
+    <task id="LOCAL-00036" summary="pushsort">
       <option name="closed" value="true" />
-      <created>1723034451336</created>
+      <created>1723049610731</created>
       <option name="number" value="00036" />
       <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1723034451336</updated>
+      <updated>1723049610731</updated>
     </task>
-    <task id="LOCAL-00037" summary="pushseclargest">
+    <task id="LOCAL-00037" summary="pushsort">
       <option name="closed" value="true" />
-      <created>1723034465848</created>
+      <created>1723101011920</created>
       <option name="number" value="00037" />
       <option name="presentableId" value="LOCAL-00037" />
       <option name="project" value="LOCAL" />
-      <updated>1723034465848</updated>
+      <updated>1723101011920</updated>
     </task>
     <option name="localTasksCounter" value="38" />
     <servers />
@@ -529,9 +528,9 @@
     <MESSAGE value="p" />
     <MESSAGE value="push" />
     <MESSAGE value="Merge remote-tracking branch 'origin/java' into java&#10;&#10;# Conflicts:&#10;#&#9;out/production/JavaPractice/MajorityElement.class" />
-    <MESSAGE value="pushsort" />
     <MESSAGE value="pushseclargest" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushseclargest" />
+    <MESSAGE value="pushsort" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushsort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -540,6 +539,11 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RomanToInteger.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
