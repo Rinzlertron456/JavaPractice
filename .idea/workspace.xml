@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_08_24__11_34am__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_08_24__11_34am__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FizzBuzz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChemicalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChemicalFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,7 @@
     "Application.DigitSum.executor": "Run",
     "Application.EditDistance.executor": "Run",
     "Application.FindTheUnion.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
     "Application.GCDofStrings.executor": "Run",
     "Application.GreatestNumberOfThree.executor": "Run",
     "Application.HalfDiamond.executor": "Run",
@@ -101,7 +101,7 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ChemicalFactory">
+  <component name="RunManager" selected="Application.FizzBuzz">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -125,6 +125,13 @@
     </configuration>
     <configuration name="DigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DigitSum" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,13 +174,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseDigits" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SumeetNumber" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SumeetNumber" />
       <module name="JavaPractice" />
@@ -188,19 +188,19 @@
       <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
+      <item itemvalue="Application.FizzBuzz" />
       <item itemvalue="Application.ChemicalFactory" />
       <item itemvalue="Application.DigitSum" />
       <item itemvalue="Application.HalfDiamond" />
       <item itemvalue="Application.PrimeNumberCheck" />
-      <item itemvalue="Application.ReverseDigits" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.ChemicalFactory" />
         <item itemvalue="Application.HalfDiamond" />
         <item itemvalue="Application.DigitSum" />
         <item itemvalue="Application.PrimeNumberCheck" />
-        <item itemvalue="Application.ReverseDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -539,7 +539,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724134121891</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1724163555585</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1724163555585</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
