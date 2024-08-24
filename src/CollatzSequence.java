@@ -34,7 +34,7 @@ public class CollatzSequence {
         collatz.add(n);
         while(n>1){
             if(n%2==0) n/=2;
-            else if(n%2!=0) n=3*n+1;
+            else n=3*n+1;
             collatz.add(n);
         }
         System.out.println(collatz);
