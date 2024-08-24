@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
-      <change afterPath="$PROJECT_DIR$/src/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumberPyramid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,9 +71,11 @@
     "Application.LongestSubArrwithSumK.executor": "Run",
     "Application.MajorityElement.executor": "Run",
     "Application.MoveZeroesToEnd.executor": "Run",
+    "Application.NumberPyramid.executor": "Run",
     "Application.PairWithMaxSum.executor": "Run",
     "Application.PasswordStrength.executor": "Run",
     "Application.PrimeNumberCheck.executor": "Run",
+    "Application.Pyramid_pattern.executor": "Run",
     "Application.RearrangeArrEleByPosAndNeg.executor": "Run",
     "Application.ReverseDigits.executor": "Run",
     "Application.RichestCustomerWealth.executor": "Run",
@@ -101,7 +103,7 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FizzBuzz">
+  <component name="RunManager" selected="Application.NumberPyramid">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -118,13 +120,6 @@
     </configuration>
     <configuration name="DeCodeEnCode" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DeCodeEnCode" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DigitSum" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,8 +155,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumberCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrimeNumberCheck" />
+    <configuration name="NumberPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberPyramid" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pyramid_pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pyramid_pattern" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,25 +184,25 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.AddDigNum" />
-      <item itemvalue="Application.SumeetNumber" />
-      <item itemvalue="Application.HillWeight" />
       <item itemvalue="Application.DeCodeEnCode" />
+      <item itemvalue="Application.HillWeight" />
+      <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
-      <item itemvalue="Application.FizzBuzz" />
+      <item itemvalue="Application.SumeetNumber" />
+      <item itemvalue="Application.NumberPyramid" />
+      <item itemvalue="Application.Pyramid_pattern" />
       <item itemvalue="Application.ChemicalFactory" />
-      <item itemvalue="Application.DigitSum" />
+      <item itemvalue="Application.FizzBuzz" />
       <item itemvalue="Application.HalfDiamond" />
-      <item itemvalue="Application.PrimeNumberCheck" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberPyramid" />
+        <item itemvalue="Application.Pyramid_pattern" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.ChemicalFactory" />
         <item itemvalue="Application.HalfDiamond" />
-        <item itemvalue="Application.DigitSum" />
-        <item itemvalue="Application.PrimeNumberCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -547,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724163555585</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1724247600412</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1724247600412</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
