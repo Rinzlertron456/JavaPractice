@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
-      <change afterPath="$PROJECT_DIR$/src/NumberPyramid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollatzSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +55,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.AllPermutations.executor": "Run",
     "Application.ChemicalFactory.executor": "Run",
+    "Application.CollatzSequence.executor": "Run",
     "Application.DetermineTriangle.executor": "Run",
     "Application.DigitSum.executor": "Run",
     "Application.EditDistance.executor": "Run",
@@ -103,7 +104,7 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NumberPyramid">
+  <component name="RunManager" selected="Application.CollatzSequence">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -118,6 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CollatzSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollatzSequence" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeCodeEnCode" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DeCodeEnCode" />
       <module name="JavaPractice" />
@@ -127,13 +135,6 @@
     </configuration>
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HalfDiamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HalfDiamond" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,19 +191,19 @@
       <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
       <item itemvalue="Application.SumeetNumber" />
+      <item itemvalue="Application.CollatzSequence" />
       <item itemvalue="Application.NumberPyramid" />
       <item itemvalue="Application.Pyramid_pattern" />
       <item itemvalue="Application.ChemicalFactory" />
       <item itemvalue="Application.FizzBuzz" />
-      <item itemvalue="Application.HalfDiamond" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollatzSequence" />
         <item itemvalue="Application.NumberPyramid" />
         <item itemvalue="Application.Pyramid_pattern" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.ChemicalFactory" />
-        <item itemvalue="Application.HalfDiamond" />
       </list>
     </recent_temporary>
   </component>
@@ -557,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724247600412</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1724477269984</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1724477269984</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
