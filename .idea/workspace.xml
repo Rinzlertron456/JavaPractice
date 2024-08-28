@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort" />
+    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
+      <change afterPath="$PROJECT_DIR$/src/RotateArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,70 +50,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.AllPermutations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChemicalFactory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollatzSequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DetermineTriangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DigitSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EditDistance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindTheUnion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FizzBuzz.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GCDofStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GreatestNumberOfThree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HalfDiamond.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KadanesAlgorithm.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeadersArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeftRotateArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestConsecutiveSubArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubArrwithSumK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoveZeroesToEnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberPyramid.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PairWithMaxSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PasswordStrength.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimeNumberCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pyramid_pattern.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RearrangeArrEleByPosAndNeg.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseDigits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RichestCustomerWealth.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RightRotateArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecLargestandSecSmallest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetMatrixZeroes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmallandSecSmallEleArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortArr0s1s2s.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StockBuyAndSell.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumofArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;java&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AllPermutations.executor": "Run",
+    "Application.ChemicalFactory.executor": "Run",
+    "Application.CollatzSequence.executor": "Run",
+    "Application.DetermineTriangle.executor": "Run",
+    "Application.DigitSum.executor": "Run",
+    "Application.EditDistance.executor": "Run",
+    "Application.FindTheUnion.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
+    "Application.GCDofStrings.executor": "Run",
+    "Application.GreatestNumberOfThree.executor": "Run",
+    "Application.HalfDiamond.executor": "Run",
+    "Application.KadanesAlgorithm.executor": "Run",
+    "Application.LeadersArray.executor": "Run",
+    "Application.LeftRotateArr.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
+    "Application.LongestConsecutiveSubArr.executor": "Run",
+    "Application.LongestSubArrwithSumK.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
+    "Application.MoveZeroesToEnd.executor": "Run",
+    "Application.NumberPyramid.executor": "Run",
+    "Application.PairWithMaxSum.executor": "Run",
+    "Application.PasswordStrength.executor": "Run",
+    "Application.PrimeNumberCheck.executor": "Run",
+    "Application.Pyramid_pattern.executor": "Run",
+    "Application.RearrangeArrEleByPosAndNeg.executor": "Run",
+    "Application.ReverseDigits.executor": "Run",
+    "Application.RichestCustomerWealth.executor": "Run",
+    "Application.RightRotateArr.executor": "Run",
+    "Application.RomanToInteger.executor": "Run",
+    "Application.RotateArr.executor": "Run",
+    "Application.SecLargestandSecSmallest.executor": "Run",
+    "Application.SetMatrixZeroes.executor": "Run",
+    "Application.SmallandSecSmallEleArr.executor": "Run",
+    "Application.SortArr0s1s2s.executor": "Run",
+    "Application.StockBuyAndSell.executor": "Run",
+    "Application.SumofArr.executor": "Run",
+    "Application.TicTacToe.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "java",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/SR20464955/IdeaProjects/JavaPractice",
+    "onboarding.tips.debug.path": "/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
-  <component name="RunManager" selected="Application.CollatzSequence">
+}]]></component>
+  <component name="RunManager" selected="Application.RotateArr">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChemicalFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChemicalFactory" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,6 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RotateArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RotateArr" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumeetNumber" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SumeetNumber" />
       <module name="JavaPractice" />
@@ -188,19 +192,19 @@
       <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
       <item itemvalue="Application.SumeetNumber" />
+      <item itemvalue="Application.RotateArr" />
       <item itemvalue="Application.CollatzSequence" />
       <item itemvalue="Application.NumberPyramid" />
       <item itemvalue="Application.Pyramid_pattern" />
-      <item itemvalue="Application.ChemicalFactory" />
       <item itemvalue="Application.FizzBuzz" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateArr" />
         <item itemvalue="Application.CollatzSequence" />
         <item itemvalue="Application.NumberPyramid" />
         <item itemvalue="Application.Pyramid_pattern" />
         <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.ChemicalFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -587,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724679597893</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1724852045280</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1724852045280</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
