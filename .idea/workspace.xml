@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Library/BookLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library/BookLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Library/LibraryManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library/LibraryManagementSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,9 @@
     &quot;Application.KadanesAlgorithm.executor&quot;: &quot;Run&quot;,
     &quot;Application.LeadersArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.LeftRotateArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryManagementSystem.executor&quot;: &quot;Run&quot;,
     &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongNonRepStr.executor&quot;: &quot;Run&quot;,
     &quot;Application.LongestConsecutiveSubArr.executor&quot;: &quot;Run&quot;,
     &quot;Application.LongestSubArrwithSumK.executor&quot;: &quot;Run&quot;,
     &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
@@ -81,6 +85,7 @@
     &quot;Application.RichestCustomerWealth.executor&quot;: &quot;Run&quot;,
     &quot;Application.RightRotateArr.executor&quot;: &quot;Run&quot;,
     &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateArr.executor&quot;: &quot;Run&quot;,
     &quot;Application.SecLargestandSecSmallest.executor&quot;: &quot;Run&quot;,
     &quot;Application.SetMatrixZeroes.executor&quot;: &quot;Run&quot;,
     &quot;Application.SmallandSecSmallEleArr.executor&quot;: &quot;Run&quot;,
@@ -103,16 +108,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CollatzSequence">
+  <component name="RunManager" selected="Application.LibraryManagementSystem">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChemicalFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChemicalFactory" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,13 +125,6 @@
     </configuration>
     <configuration name="DeCodeEnCode" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DeCodeEnCode" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,6 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibraryManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Library.LibraryManagementSystem" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongNonRepStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongNonRepStr" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumberPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NumberPyramid" />
       <module name="JavaPractice" />
@@ -162,15 +173,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pyramid_pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pyramid_pattern" />
+    <configuration name="RearrangeArrEleByPosAndNeg" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RearrangeArrEleByPosAndNeg" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RearrangeArrEleByPosAndNeg" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RearrangeArrEleByPosAndNeg" />
+    <configuration name="RotateArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RotateArr" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,19 +201,19 @@
       <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
       <item itemvalue="Application.SumeetNumber" />
+      <item itemvalue="Application.LibraryManagementSystem" />
+      <item itemvalue="Application.LongNonRepStr" />
+      <item itemvalue="Application.RotateArr" />
       <item itemvalue="Application.CollatzSequence" />
       <item itemvalue="Application.NumberPyramid" />
-      <item itemvalue="Application.Pyramid_pattern" />
-      <item itemvalue="Application.ChemicalFactory" />
-      <item itemvalue="Application.FizzBuzz" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryManagementSystem" />
+        <item itemvalue="Application.LongNonRepStr" />
+        <item itemvalue="Application.RotateArr" />
         <item itemvalue="Application.CollatzSequence" />
         <item itemvalue="Application.NumberPyramid" />
-        <item itemvalue="Application.Pyramid_pattern" />
-        <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.ChemicalFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -260,22 +271,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1688624561233</updated>
-    </task>
-    <task id="LOCAL-00007" summary="push">
-      <option name="closed" value="true" />
-      <created>1698907027321</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1698907027321</updated>
-    </task>
-    <task id="LOCAL-00008" summary="push">
-      <option name="closed" value="true" />
-      <created>1714195555732</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1714195555732</updated>
     </task>
     <task id="LOCAL-00009" summary="pushseclargest">
       <option name="closed" value="true" />
@@ -573,7 +568,55 @@
       <option name="project" value="LOCAL" />
       <updated>1724523035895</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1724523093726</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1724523093726</updated>
+    </task>
+    <task id="LOCAL-00047" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1724679597893</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1724679597893</updated>
+    </task>
+    <task id="LOCAL-00048" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1724852045280</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1724852045280</updated>
+    </task>
+    <task id="LOCAL-00049" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1724859791396</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1724859791396</updated>
+    </task>
+    <task id="LOCAL-00050" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1725190239294</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1725190239309</updated>
+    </task>
+    <task id="LOCAL-00051" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1725192603194</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1725192603194</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,6 +649,96 @@
           <url>file://$PROJECT_DIR$/src/RomanToInteger.java</url>
           <line>79</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
