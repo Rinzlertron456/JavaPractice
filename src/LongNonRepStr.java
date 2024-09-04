@@ -21,29 +21,53 @@
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 
 public class LongNonRepStr {
     public static void main(String[] args) {
+        //Leetcode Solution
+        //class Solution {
+        //    public int lengthOfLongestSubstring(String s) {
+        //        if(s.equals("")) return 0;
+        //        if(s.length()==1) return 1;
+        //        ArrayList<Integer> list=new ArrayList<>();
+        //        String str="";
+        //        for (int i = 0; i < s.length(); i++) {
+        //            if(str.contains(s.charAt(s.length()-1)+"")) {
+        //                list.add(str.length());
+        //                break;
+        //            }
+        //            str+=s.charAt(i);
+        //            for (int j = i+1; j < s.length(); j++) {
+        //                if(!str.contains(s.charAt(j)+"")) {
+        //                    str+=s.charAt(j);
+        //                }
+        //                else {
+        //                    list.add(str.length());
+        //                    str="";
+        //                    break;
+        //                }
+        //            }
+        //        }
+        //        return Collections.max(list);
+        //    }
+        //}
         String s = "nhkyylsi";
         if (s.equals("")) System.out.println(0);
         if (s.contains(" ") || s.length() == 1) System.out.println(1);
-        ArrayList<Integer> longnonrep = new ArrayList<>();
-        StringBuilder word = new StringBuilder();
+        int longnonrep=0;
         for (int i = 0; i < s.length(); i++) {
-            word.append(s.charAt(i));
-            for (int j = i + 1; j < s.length(); j++) {
-                if (!word.toString().contains(s.charAt(j)+"")) {
-                    word.append(s.charAt(j));
+            boolean[] visited=new boolean[256];
+            for (int j = i; j < s.length(); j++) {
+                if (!visited[s.charAt(j)]) {
+                    visited[s.charAt(j)]=true;
+                    longnonrep=Math.max(longnonrep,j-i+1);
                 }
                 else{
-                    longnonrep.add(word.toString().length());
                     break;
                 }
             }
-            longnonrep.add(word.toString().length());
-            word.setLength(0);
         }
         System.out.println(longnonrep);
-//        System.out.println(Collections.max(longnonrep));
     }
 }
