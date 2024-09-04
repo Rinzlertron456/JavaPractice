@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort" />
+    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Bank/Developer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Bank/Developer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Bank/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Bank/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Bank/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Bank/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Manager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,64 +55,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.AllPermutations.executor": "Run",
-    "Application.ChemicalFactory.executor": "Run",
-    "Application.CollatzSequence.executor": "Run",
-    "Application.DetermineTriangle.executor": "Run",
-    "Application.DigitSum.executor": "Run",
-    "Application.EditDistance.executor": "Run",
-    "Application.FindTheUnion.executor": "Run",
-    "Application.FizzBuzz.executor": "Run",
-    "Application.GCDofStrings.executor": "Run",
-    "Application.GreatestNumberOfThree.executor": "Run",
-    "Application.HalfDiamond.executor": "Run",
-    "Application.KadanesAlgorithm.executor": "Run",
-    "Application.LeadersArray.executor": "Run",
-    "Application.LeftRotateArr.executor": "Run",
-    "Application.LibraryManagementSystem.executor": "Run",
-    "Application.LinearSearch.executor": "Run",
-    "Application.LongNonRepStr.executor": "Run",
-    "Application.LongestConsecutiveSubArr.executor": "Run",
-    "Application.LongestSubArrwithSumK.executor": "Run",
-    "Application.MajorityElement.executor": "Run",
-    "Application.Manager.executor": "Run",
-    "Application.MoveZeroesToEnd.executor": "Run",
-    "Application.NumberPyramid.executor": "Run",
-    "Application.PairWithMaxSum.executor": "Run",
-    "Application.PasswordStrength.executor": "Run",
-    "Application.PrimeNumberCheck.executor": "Run",
-    "Application.Pyramid_pattern.executor": "Run",
-    "Application.RearrangeArrEleByPosAndNeg.executor": "Run",
-    "Application.ReverseDigits.executor": "Run",
-    "Application.RichestCustomerWealth.executor": "Run",
-    "Application.RightRotateArr.executor": "Run",
-    "Application.RomanToInteger.executor": "Run",
-    "Application.RotateArr.executor": "Run",
-    "Application.SecLargestandSecSmallest.executor": "Run",
-    "Application.SetMatrixZeroes.executor": "Run",
-    "Application.SmallandSecSmallEleArr.executor": "Run",
-    "Application.SortArr0s1s2s.executor": "Run",
-    "Application.StockBuyAndSell.executor": "Run",
-    "Application.SumofArr.executor": "Run",
-    "Application.TicTacToe.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "java",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/SR20464955/IdeaProjects/JavaPractice",
-    "onboarding.tips.debug.path": "/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AllPermutations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChemicalFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CollatzSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetermineTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DigitSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EditDistance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindTheUnion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FizzBuzz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GCDofStrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GreatestNumberOfThree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HalfDiamond.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KadanesAlgorithm.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeadersArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftRotateArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LibraryManagementSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongNonRepStr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestConsecutiveSubArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubArrwithSumK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Manager.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeroesToEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberPyramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PairWithMaxSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PasswordStrength.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumberCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pyramid_pattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RearrangeArrEleByPosAndNeg.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RichestCustomerWealth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RightRotateArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecLargestandSecSmallest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SetMatrixZeroes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmallandSecSmallEleArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortArr0s1s2s.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StockBuyAndSell.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumofArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;java&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Bank" />
@@ -657,36 +665,6 @@
           <url>file://$PROJECT_DIR$/src/RomanToInteger.java</url>
           <line>79</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LongNonRepStr.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

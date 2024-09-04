@@ -1,37 +1,30 @@
 package Bank;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Manager extends Employee{
+    private final String name;
+    private final Double salary;
     private int numdevs;
-    private static Developer[] developers;
+    private int i=0;
 
-    public int getNumdevs() {
-        return numdevs;
-    }
-
-    public void setNumdevs(int numdevs) {
-        this.numdevs = numdevs;
-    }
-
+    private static String[] developers;
     public Manager(String name, Double salary, int numdevs) {
         super(name, salary);
-        developers=new Developer[numdevs];
+        this.name=name;
+        this.salary=salary;
+        developers=new String[numdevs];
     }
+
     public void addDeveloper(Developer developer){
-        for (int i = 0; i < numdevs; i++) {
-            developers[i]=developer;
-
-        }
-
+        developers[i]=developer.getDetails();
+        i++;
     }
 
-    @Override
     public String getDetails() {
-        return "Manager{" +
-                "numdevs=" + numdevs +
-                ", developers=" + Arrays.toString(developers) +
-                '}';
+        return "Name: " + name + " Salary: " + salary +
+                "\nManaging Developers:\n" + Arrays.toString(developers);
     }
 
     public static void main(String[] args) {
