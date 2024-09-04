@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
+      <change afterPath="$PROJECT_DIR$/src/Bank/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bank/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bank/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Library/LibraryManagementSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Library/LibraryManagementSystem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LongNonRepStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LongNonRepStr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongNonRepStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongNonRepStr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +76,7 @@
     "Application.LongestConsecutiveSubArr.executor": "Run",
     "Application.LongestSubArrwithSumK.executor": "Run",
     "Application.MajorityElement.executor": "Run",
+    "Application.Manager.executor": "Run",
     "Application.MoveZeroesToEnd.executor": "Run",
     "Application.NumberPyramid.executor": "Run",
     "Application.PairWithMaxSum.executor": "Run",
@@ -109,7 +111,12 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LongNonRepStr">
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Bank" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Manager">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -167,9 +174,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberPyramid" />
+    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bank.Manager" />
       <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,19 +215,19 @@
       <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
       <item itemvalue="Application.SumeetNumber" />
+      <item itemvalue="Application.Manager" />
       <item itemvalue="Application.LibraryManagementSystem" />
       <item itemvalue="Application.LongNonRepStr" />
       <item itemvalue="Application.RotateArr" />
       <item itemvalue="Application.CollatzSequence" />
-      <item itemvalue="Application.NumberPyramid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Manager" />
         <item itemvalue="Application.LongNonRepStr" />
         <item itemvalue="Application.LibraryManagementSystem" />
         <item itemvalue="Application.RotateArr" />
         <item itemvalue="Application.CollatzSequence" />
-        <item itemvalue="Application.NumberPyramid" />
       </list>
     </recent_temporary>
   </component>
@@ -272,14 +285,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1688624561233</updated>
-    </task>
-    <task id="LOCAL-00009" summary="pushseclargest">
-      <option name="closed" value="true" />
-      <created>1714469399058</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1714469399058</updated>
     </task>
     <task id="LOCAL-00010" summary="pushseclargest">
       <option name="closed" value="true" />
@@ -617,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725192603194</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1725430297563</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1725430297564</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
