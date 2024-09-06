@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
+      <change afterPath="$PROJECT_DIR$/src/BankingSystem/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Bank/Developer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Bank/Developer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Bank/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Bank/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bank/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Developer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bank/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bank/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Bank/Developer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Bank/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Bank/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Organization/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Organization/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Organization/Manager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +60,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.AllPermutations.executor": "Run",
+    "Application.BankAccount.executor": "Run",
     "Application.ChemicalFactory.executor": "Run",
     "Application.CollatzSequence.executor": "Run",
     "Application.DetermineTriangle.executor": "Run",
@@ -117,7 +120,7 @@
       <recent name="Bank" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Manager">
+  <component name="RunManager" selected="Application.BankAccount">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -125,9 +128,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollatzSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollatzSequence" />
+    <configuration name="BankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BankingSystem.BankAccount" />
       <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BankingSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,11 +185,11 @@
       </method>
     </configuration>
     <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bank.Manager" />
+      <option name="MAIN_CLASS_NAME" value="Organization.Manager" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Bank.*" />
+          <option name="PATTERN" value="Organization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,19 +225,19 @@
       <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
       <item itemvalue="Application.SumeetNumber" />
+      <item itemvalue="Application.BankAccount" />
       <item itemvalue="Application.Manager" />
       <item itemvalue="Application.LibraryManagementSystem" />
       <item itemvalue="Application.LongNonRepStr" />
       <item itemvalue="Application.RotateArr" />
-      <item itemvalue="Application.CollatzSequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankAccount" />
         <item itemvalue="Application.Manager" />
         <item itemvalue="Application.LongNonRepStr" />
         <item itemvalue="Application.LibraryManagementSystem" />
         <item itemvalue="Application.RotateArr" />
-        <item itemvalue="Application.CollatzSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -286,14 +295,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1688624561233</updated>
-    </task>
-    <task id="LOCAL-00012" summary="pushseclargest">
-      <option name="closed" value="true" />
-      <created>1714493284049</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1714493284049</updated>
     </task>
     <task id="LOCAL-00013" summary="pushseclargest">
       <option name="closed" value="true" />
@@ -631,7 +632,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725465690835</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1725632797323</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1725632797323</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

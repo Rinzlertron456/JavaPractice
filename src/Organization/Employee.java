@@ -1,4 +1,4 @@
-package Bank;
+package Organization;
 
 public abstract class Employee {
     protected String name;

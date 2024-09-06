@@ -1,7 +1,4 @@
-package Bank;
-
-import java.util.ArrayList;
-import java.util.Arrays;
+package Organization;
 
 public class Developer extends Employee{
     private String name;
