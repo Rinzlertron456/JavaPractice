@@ -8,8 +8,8 @@ public class Developer extends Employee{
     private Double salary;
     private String programmingLanguage;
 
+
     public Developer(String name, Double salary, String programmingLanguage) {
-        super(name, salary);
         this.name=name;
         this.salary=salary;
         this.programmingLanguage=programmingLanguage;
@@ -35,6 +35,13 @@ public class Developer extends Employee{
         this.salary = salary;
     }
 
+    @Override
+    public String getDetails(Employee employee) {
+        return "Name: '" + employee.getName() + '\'' +
+                ", Salary: " + employee.getSalary() +
+                ", Programming Language: '" + programmingLanguage ;
+    }
+
     public String getProgrammingLanguage() {
         return programmingLanguage;
     }
@@ -44,9 +51,9 @@ public class Developer extends Employee{
     }
 
 
-    public String getDetails() {
-        return "Name: '" + name + '\'' +
-                ", Salary: " + salary +
-                ", Programming Language: '" + programmingLanguage ;
-    }
+//    public String getDetails() {
+//        return "Name: '" + name + '\'' +
+//                ", Salary: " + salary +
+//                ", Programming Language: '" + programmingLanguage ;
+//    }
 }

@@ -4,27 +4,48 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Manager extends Employee{
-    private final String name;
-    private final Double salary;
+    private String name;
+    private Double salary;
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public Double getSalary() {
+        return salary;
+    }
+
+    @Override
+    public void setSalary(Double salary) {
+        this.salary = salary;
+    }
+
+    @Override
+    String getDetails(Employee employee) {
+        return "Name: " + employee.getName() + " Salary: " + employee.getSalary() +
+                "\nManaging Developers:\n" + Arrays.toString(developers);
+    }
+
     private int numdevs;
     private int i=0;
 
     private static String[] developers;
     public Manager(String name, Double salary, int numdevs) {
-        super(name, salary);
         this.name=name;
         this.salary=salary;
         developers=new String[numdevs];
     }
 
     public void addDeveloper(Developer developer){
-        developers[i]=developer.getDetails();
+        developers[i]=developer.getDetails(developer);
         i++;
-    }
-
-    public String getDetails() {
-        return "Name: " + name + " Salary: " + salary +
-                "\nManaging Developers:\n" + Arrays.toString(developers);
     }
 
     public static void main(String[] args) {
@@ -33,6 +54,6 @@ public class Manager extends Employee{
         Developer dev2 = new Developer("Charlie", 75000.0, "Python");
         manager.addDeveloper(dev1);
         manager.addDeveloper(dev2);
-        System.out.println(manager.getDetails());
+        System.out.println(manager.getDetails(manager));
     }
 }

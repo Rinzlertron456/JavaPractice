@@ -1,13 +1,8 @@
 package Bank;
 
-public class Employee {
-    protected static String name;
-    protected static Double salary;
-
-    public Employee(String name, Double salary) {
-        this.name = name;
-        this.salary = salary;
-    }
+public abstract class Employee {
+    protected String name;
+    protected Double salary;
 
     public String getName() {
         return name;
@@ -25,11 +20,6 @@ public class Employee {
         this.salary = salary;
     }
 
-    public String getDetails(Employee employee) {
-        return "Employee{" +
-                "name='" + name + '\'' +
-                ", salary=" + salary +
-                '}';
-    }
+    abstract String getDetails(Employee employee) ;
 
 }
