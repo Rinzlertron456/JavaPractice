@@ -39,12 +39,10 @@ public class TaskManager {
         taskManager.removeTask("Attend meeting");
         taskManager.removeTask("Exercise");
         taskManager.getAllTasks();
-//        taskManager.addTask("Study for exams", 1);
-//        taskManager.addTask("Clean the house", 2);
-//        List<Task> tasks1 = taskManager.getAllTasks();
-//        for (Task task:tasks1) {
-//            System.out.println("Task[Description: " + task.getDescription() + ", Priority: " + task.getPriority() + "]");
-//        }
+        TaskManager taskManager1=new TaskManager();
+        taskManager1.addTask("Study for exams", 1);
+        taskManager1.addTask("Clean the house", 2);
+        List<Task> tasks1 = taskManager1.getAllTasks();
     }
 
     private void removeTask(String description) {
@@ -60,10 +58,11 @@ public class TaskManager {
         }
     }
 
-    private void getAllTasks() {
+    private List<Task> getAllTasks() {
         for (Task task:tasks){
             System.out.println("Task[Description: "+task.getDescription()+", Priority: "+task.getPriority()+"]");
         }
+        return tasks;
     }
 
     private void addTask(String description, int priority) {
