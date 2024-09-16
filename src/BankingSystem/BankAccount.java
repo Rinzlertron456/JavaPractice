@@ -72,7 +72,7 @@ public class BankAccount{
             System.out.println(account.deposit(-100));
         } catch(InsufficientFundsException infe ){
             System.out.println(infe.getMessage());
-        } catch (InvalidAmountException infe ){
+        } catch (InvalidAmountException infe){
             System.out.println(infe.getMessage());
         }
         System.out.println(balance);
