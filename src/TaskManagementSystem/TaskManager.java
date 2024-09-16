@@ -56,6 +56,7 @@ public class TaskManager {
             else{
                 System.out.println("Task not found: "+description);
             }
+            break;
         }
     }
 
