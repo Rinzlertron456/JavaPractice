@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
-      <change afterPath="$PROJECT_DIR$/src/TaskManagementSystem/TaskManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UniqueStudentNames/UniqueStudents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BankingSystem/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankingSystem/BankAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +96,7 @@
     "Application.TaskManager.executor": "Run",
     "Application.TicTacToe.executor": "Run",
     "Application.TwoSum.executor": "Run",
+    "Application.UniqueStudents.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -116,7 +116,7 @@
       <recent name="Bank" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TaskManager">
+  <component name="RunManager" selected="Application.UniqueStudents">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -156,19 +156,6 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="IntegerToRoman" />
       <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LibraryManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Library.LibraryManagementSystem" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Library.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,6 +207,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniqueStudents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UniqueStudentNames.UniqueStudents" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UniqueStudentNames.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AddDigNum" />
       <item itemvalue="Application.DeCodeEnCode" />
@@ -227,19 +227,19 @@
       <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
       <item itemvalue="Application.SumeetNumber" />
+      <item itemvalue="Application.UniqueStudents" />
       <item itemvalue="Application.TaskManager" />
       <item itemvalue="Application.BankAccount" />
       <item itemvalue="Application.Manager" />
-      <item itemvalue="Application.LibraryManagementSystem" />
       <item itemvalue="Application.LongNonRepStr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniqueStudents" />
         <item itemvalue="Application.TaskManager" />
         <item itemvalue="Application.BankAccount" />
         <item itemvalue="Application.Manager" />
         <item itemvalue="Application.LongNonRepStr" />
-        <item itemvalue="Application.LibraryManagementSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -297,14 +297,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1688624561233</updated>
-    </task>
-    <task id="LOCAL-00015" summary="pushseclargest">
-      <option name="closed" value="true" />
-      <created>1715693294661</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1715693294661</updated>
     </task>
     <task id="LOCAL-00016" summary="pushseclargest">
       <option name="closed" value="true" />
@@ -642,7 +634,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725974009611</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1726160634038</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1726160634038</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
