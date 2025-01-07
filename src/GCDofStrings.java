@@ -17,6 +17,7 @@ public class GCDofStrings {
         }
         for (Map.Entry<Character,Integer> entry: map1.entrySet()){
             if(map2.containsKey(entry.getKey()))  sb.append(entry.getKey());
+            else sb.setLength(0);
         }
         if(sb.length()==1) System.out.println("");
         else System.out.println(sb.toString());
