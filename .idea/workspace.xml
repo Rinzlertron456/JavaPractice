@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="pushsort">
-      <change afterPath="$PROJECT_DIR$/src/AltMergeStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KidWithGreatestCandies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReverseWordsInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringCompression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_09_24,_10_09 am_[Changes]/shelved.patch" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductInventorySystem/Inventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_09_24__10_09am__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/GCDofStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/GCDofStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GCDofStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GCDofStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +36,12 @@
     &quot;assignee&quot;: &quot;Rinzlertron456&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Rinzlertron456/JavaPractice.git&quot;,
-    &quot;accountId&quot;: &quot;fa9a9c19-66a5-4c8d-a254-c767a187f100&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Rinzlertron456/JavaPractice.git",
+    "accountId": "3d813291-c437-49ea-a04c-03c5dd46f24b"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -61,7 +55,6 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.AllPermutations.executor": "Run",
-    "Application.AltMergeStr.executor": "Run",
     "Application.BankAccount.executor": "Run",
     "Application.ChemicalFactory.executor": "Run",
     "Application.CollatzSequence.executor": "Run",
@@ -73,8 +66,8 @@
     "Application.GCDofStrings.executor": "Run",
     "Application.GreatestNumberOfThree.executor": "Run",
     "Application.HalfDiamond.executor": "Run",
+    "Application.Inventory.executor": "Run",
     "Application.KadanesAlgorithm.executor": "Run",
-    "Application.KidWithGreatestCandies.executor": "Run",
     "Application.LeadersArray.executor": "Run",
     "Application.LeftRotateArr.executor": "Run",
     "Application.LibraryManagementSystem.executor": "Run",
@@ -92,7 +85,6 @@
     "Application.Pyramid_pattern.executor": "Run",
     "Application.RearrangeArrEleByPosAndNeg.executor": "Run",
     "Application.ReverseDigits.executor": "Run",
-    "Application.ReverseWordsInString.executor": "Run",
     "Application.RichestCustomerWealth.executor": "Run",
     "Application.RightRotateArr.executor": "Run",
     "Application.RomanToInteger.executor": "Run",
@@ -102,7 +94,6 @@
     "Application.SmallandSecSmallEleArr.executor": "Run",
     "Application.SortArr0s1s2s.executor": "Run",
     "Application.StockBuyAndSell.executor": "Run",
-    "Application.StringCompression.executor": "Run",
     "Application.SumofArr.executor": "Run",
     "Application.TaskManager.executor": "Run",
     "Application.TicTacToe.executor": "Run",
@@ -126,7 +117,7 @@
       <recent name="Bank" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringCompression">
+  <component name="RunManager" selected="Application.Inventory">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -134,22 +125,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AltMergeStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AltMergeStr" />
+    <configuration name="BankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BankingSystem.BankAccount" />
       <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BankingSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="DeCodeEnCode" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DeCodeEnCode" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GCDofStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GCDofStrings" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,29 +161,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KidWithGreatestCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KidWithGreatestCandies" />
+    <configuration name="Inventory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProductInventorySystem.Inventory" />
       <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProductInventorySystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongNonRepStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongNonRepStr" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Organization.Manager" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Organization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="RearrangeArrEleByPosAndNeg" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RearrangeArrEleByPosAndNeg" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseWordsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseWordsInString" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringCompression" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,6 +208,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TaskManagementSystem.TaskManager" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TaskManagementSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AddDigNum" />
       <item itemvalue="Application.DeCodeEnCode" />
@@ -213,19 +228,19 @@
       <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
       <item itemvalue="Application.SumeetNumber" />
-      <item itemvalue="Application.AltMergeStr" />
-      <item itemvalue="Application.GCDofStrings" />
-      <item itemvalue="Application.KidWithGreatestCandies" />
-      <item itemvalue="Application.ReverseWordsInString" />
-      <item itemvalue="Application.StringCompression" />
+      <item itemvalue="Application.Inventory" />
+      <item itemvalue="Application.TaskManager" />
+      <item itemvalue="Application.BankAccount" />
+      <item itemvalue="Application.Manager" />
+      <item itemvalue="Application.LongNonRepStr" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringCompression" />
-        <item itemvalue="Application.ReverseWordsInString" />
-        <item itemvalue="Application.KidWithGreatestCandies" />
-        <item itemvalue="Application.GCDofStrings" />
-        <item itemvalue="Application.AltMergeStr" />
+        <item itemvalue="Application.Inventory" />
+        <item itemvalue="Application.TaskManager" />
+        <item itemvalue="Application.BankAccount" />
+        <item itemvalue="Application.Manager" />
+        <item itemvalue="Application.LongNonRepStr" />
       </list>
     </recent_temporary>
   </component>
@@ -283,14 +298,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1688624561233</updated>
-    </task>
-    <task id="LOCAL-00019" summary="pushseclargest">
-      <option name="closed" value="true" />
-      <created>1715867520201</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1715867520201</updated>
     </task>
     <task id="LOCAL-00020" summary="pushseclargest">
       <option name="closed" value="true" />
@@ -622,13 +629,21 @@
     </task>
     <task id="LOCAL-00061" summary="pushsort">
       <option name="closed" value="true" />
-      <created>1726493836441</created>
+      <created>1726657223156</created>
       <option name="number" value="00061" />
       <option name="presentableId" value="LOCAL-00061" />
       <option name="project" value="LOCAL" />
-      <updated>1726493836441</updated>
+      <updated>1726657223157</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="pushsort">
+      <option name="closed" value="true" />
+      <created>1726657616522</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1726657616522</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
