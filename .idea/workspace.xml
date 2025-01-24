@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="push-new-leetcode-reverse-vowel-and-string-compression">
+      <change afterPath="$PROJECT_DIR$/src/IrregularStudentPositions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_24__2_33pm__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_24__2_33pm__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-05-2024_09_44__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-05-2024_09_44__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_08_24__11_34am__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_08_24__11_34am__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +38,12 @@
     &quot;assignee&quot;: &quot;Rinzlertron456&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Rinzlertron456/JavaPractice.git&quot;,
-    &quot;accountId&quot;: &quot;3d813291-c437-49ea-a04c-03c5dd46f24b&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Rinzlertron456/JavaPractice.git",
+    "accountId": "fa9a9c19-66a5-4c8d-a254-c767a187f100"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -100,6 +104,7 @@
     "Application.TwoSum.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "java",
     "kotlin-language-version-configured": "true",
@@ -292,14 +297,6 @@
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1688624561233</updated>
-    </task>
-    <task id="LOCAL-00023" summary="pushseclargest">
-      <option name="closed" value="true" />
-      <created>1716357274670</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1716357274670</updated>
     </task>
     <task id="LOCAL-00024" summary="pushsort">
       <option name="closed" value="true" />
@@ -637,7 +634,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736418865031</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="push-new-leetcode-reverse-vowel-and-string-compression">
+      <option name="closed" value="true" />
+      <created>1737518899649</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1737518899649</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
