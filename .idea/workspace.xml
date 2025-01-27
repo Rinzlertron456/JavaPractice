@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment=" IBM coding question push" />
+    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="push-new-leetcode-reverse-vowel-and-string-compression">
+      <change afterPath="$PROJECT_DIR$/src/LexiSmallSeq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_24__2_33pm__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_05_24__2_33pm__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-05-2024_09_44__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-05-2024_09_44__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_08_24__11_34am__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_08_24__11_34am__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IrregularStudentPositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IrregularStudentPositions.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +39,12 @@
     &quot;assignee&quot;: &quot;Rinzlertron456&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Rinzlertron456/JavaPractice.git",
-    "accountId": "fa9a9c19-66a5-4c8d-a254-c767a187f100"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rinzlertron456/JavaPractice.git&quot;,
+    &quot;accountId&quot;: &quot;3d813291-c437-49ea-a04c-03c5dd46f24b&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -63,9 +70,11 @@
     "Application.GreatestNumberOfThree.executor": "Run",
     "Application.HalfDiamond.executor": "Run",
     "Application.Inventory.executor": "Run",
+    "Application.IrregularStudentPositions.executor": "Run",
     "Application.KadanesAlgorithm.executor": "Run",
     "Application.LeadersArray.executor": "Run",
     "Application.LeftRotateArr.executor": "Run",
+    "Application.LexiSmallSeq.executor": "Run",
     "Application.LibraryManagementSystem.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.LongNonRepStr.executor": "Run",
@@ -102,7 +111,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "java",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/SR20464955/IdeaProjects/JavaPractice",
+    "last_opened_file_path": "C:/Users/devan/IdeaProjects/ServletDemo",
     "onboarding.tips.debug.path": "/Users/SR20464955/IdeaProjects/JavaPractice/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -116,23 +125,10 @@
       <recent name="Bank" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseVowelString">
+  <component name="RunManager" selected="Application.LexiSmallSeq">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BankingSystem.BankAccount" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BankingSystem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,6 +169,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IrregularStudentPositions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IrregularStudentPositions" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LexiSmallSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LexiSmallSeq" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RearrangeArrEleByPosAndNeg" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RearrangeArrEleByPosAndNeg" />
       <module name="JavaPractice" />
@@ -201,19 +211,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TaskManagementSystem.TaskManager" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TaskManagementSystem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.AddDigNum" />
       <item itemvalue="Application.DeCodeEnCode" />
@@ -221,19 +218,19 @@
       <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
       <item itemvalue="Application.SumeetNumber" />
+      <item itemvalue="Application.IrregularStudentPositions" />
+      <item itemvalue="Application.LexiSmallSeq" />
       <item itemvalue="Application.ReverseVowelString" />
       <item itemvalue="Application.StringCompression" />
       <item itemvalue="Application.Inventory" />
-      <item itemvalue="Application.TaskManager" />
-      <item itemvalue="Application.BankAccount" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LexiSmallSeq" />
+        <item itemvalue="Application.IrregularStudentPositions" />
         <item itemvalue="Application.ReverseVowelString" />
         <item itemvalue="Application.StringCompression" />
         <item itemvalue="Application.Inventory" />
-        <item itemvalue="Application.TaskManager" />
-        <item itemvalue="Application.BankAccount" />
       </list>
     </recent_temporary>
   </component>
