@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment=" IBM coding question push">
-      <change afterPath="$PROJECT_DIR$/src/Anagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FizzBuzzEnhanced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StepsStringPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VowelCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LexiSmallSeq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LexiSmallSeq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/ReverseVowelString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/ReverseVowelString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LexiSmallSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LexiSmallSeq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseVowelString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseVowelString.java" afterDir="false" />
-    </list>
+    <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment=" IBM coding question push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -663,7 +652,8 @@
     <MESSAGE value=" IBM coding question push" />
     <MESSAGE value="push-new-leetcode-reverse-vowel-and-string-compression" />
     <MESSAGE value="push-new-IBM-coding-questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="push-new-IBM-coding-questions" />
+    <MESSAGE value="Java Generics Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Generics Practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
