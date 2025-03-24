@@ -1,42 +1,45 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class ReverseVowelString {
     public static void main(String[] args) {
-        String s="c#dc";
-        //Optimised Approach
+        String s="IceCreAm";
+        String res = "";
+        //Alternative Approach - 1
+//        String vowels = "aeiouAEIOU";
+//        char[] letters = s.toCharArray();
+//        ArrayList<Character> vowelList = new ArrayList<>();
+//        for (int i = 0; i < letters.length; i++) {
+//            if(vowels.contains(letters[i]+"")) vowelList.add(letters[i]);
+//        }
+//        System.out.println(vowelList);
+//        int k = vowelList.size()-1;
+//        for (int i = 0; i < s.length(); i++) {
+//            if(!vowels.contains(s.charAt(i)+"")) res=res+s.charAt(i);
+//            else {
+//                res = res+vowelList.get(k);
+//                k--;
+//            }
+//        }
+        //Alternative Approach - 2
         String vowels = "aeiouAEIOU";
-        boolean alpha = true;
-        for(int i=0;i<s.length();i++){
-            char ch = s.charAt(i);
-            if(!((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))) alpha=false;
-            else alpha=true;
+        ArrayList<Character> vowelList = new ArrayList<>();
+        int k = vowelList.size()-1;
+        for (int i = 0; i < s.length(); i++) {
+            if(vowels.contains(s.charAt(i)+"")) vowelList.add(s.charAt(i));
         }
-        if(alpha==false) System.out.println(s);
-        char[] letters = s.toCharArray();
-        int left = 0, right = s.length()-1;
-        if(s.length()==2&&vowels.contains(letters[left]+"")&&vowels.contains(letters[right]+"")) {
-            char temp = '\0';
-            temp = letters[left];
-            letters[left] = letters[right];
-            letters[right] = temp;
-        }
-        while(left<(s.length()-1)/2){
-            while(!vowels.contains(letters[left]+"")) left++;
-            while(!vowels.contains(letters[right]+"")) right--;
-            if(vowels.contains(letters[left]+"")&&vowels.contains(letters[right]+"")){
-                char temp = '\0';
-                temp = letters[left];
-                letters[left] = letters[right];
-                letters[right] = temp;
+        for (int i = 0; i < s.length(); i++) {
+            if(!vowels.contains(s.charAt(i)+"")) res=res+s.charAt(i);
+            else {
+                res = res+vowelList.get(k);
+                k--;
             }
-            System.out.println("left: "+left);
-            System.out.println("right: "+right);
-            System.out.println("Left element: "+letters[left]);
-            System.out.println("Right Element: "+letters[right]);
-            if(left<s.length()) left++;
-            if(right<s.length())right--;
         }
+        System.out.println(res);
+//        for (int i = 0; i < letters.length; i++) {
+//            System.out.println(letters[i]);
+//        }
         //Conventional Approach
 //        ArrayList<Character> vowels= new ArrayList<>();
 //        char[] letters = s.toCharArray();
@@ -58,8 +61,8 @@ public class ReverseVowelString {
 //            }
 //        }
 //
-        for (int i = 0; i < letters.length; i++) {
-            System.out.println(letters[i]);
-        }
+//        for (int i = 0; i < letters.length; i++) {
+//            System.out.println(letters[i]);
+//        }
     }
 }
