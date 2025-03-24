@@ -37,5 +37,8 @@ class Ordinary{
         gc.setContent("Hello World");
         String content = gc.getContent();
         System.out.println(content);
+        GenericKeyValuePair<Character,Integer> gcollect = new GenericKeyValuePair<>('c',20);
+        System.out.println(gcollect.getKey());
+        System.out.println(gcollect.getValue());
     }
 }
