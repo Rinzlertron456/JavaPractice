@@ -16,19 +16,15 @@ public class GenericClass<T> implements GenericInterface<T>{
     }
 
     @Override
-    public void create() {
-
+    public void create(T raw_material) {
+        content = raw_material;
     }
 
     @Override
-    public void show() {
-
+    public T show() {
+        return content;
     }
 
-    @Override
-    public void hide() {
-
-    }
 }
 
 class Ordinary{
@@ -40,5 +36,7 @@ class Ordinary{
         GenericKeyValuePair<Character,Integer> gcollect = new GenericKeyValuePair<>('c',20);
         System.out.println(gcollect.getKey());
         System.out.println(gcollect.getValue());
+        gc.create("Hello MFs!!");
+        System.out.println(gc.show());
     }
 }
