@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd963c57-024b-4f52-ab73-a225d61d2eec" name="Changes" comment="Javascript DSA Coding practice in Java - 05-03-2025">
-      <change afterPath="$PROJECT_DIR$/src/Generics/AdvancedLayeredImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/BoundedTypeParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/CustomLayeredImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/EnumTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generics/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_03_25__9_24am__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_03_25__9_24am__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Generics/GenericClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Generics/GenericClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Generics/GenericInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Generics/GenericInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Generics/Ordinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/Generics/Ordinary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/LongestPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaPractice/LongestPrefix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/GenericClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/GenericClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/GenericInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/GenericInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Generics/GenericCollections.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generics/EnumTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/EnumTypes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +38,12 @@
     &quot;assignee&quot;: &quot;Rinzlertron456&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Rinzlertron456/JavaPractice.git&quot;,
-    &quot;accountId&quot;: &quot;fa9a9c19-66a5-4c8d-a254-c767a187f100&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Rinzlertron456/JavaPractice.git",
+    "accountId": "3d813291-c437-49ea-a04c-03c5dd46f24b"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -74,6 +65,11 @@
     "Application.DetermineTriangle.executor": "Run",
     "Application.DigitSum.executor": "Run",
     "Application.EditDistance.executor": "Run",
+    "Application.EnumTypes (1).executor": "Run",
+    "Application.EnumTypes (2).executor": "Run",
+    "Application.EnumTypes (3).executor": "Run",
+    "Application.EnumTypes (4).executor": "Run",
+    "Application.EnumTypes (5).executor": "Run",
     "Application.EnumTypes.executor": "Run",
     "Application.FindTheUnion.executor": "Run",
     "Application.FizzBuzz.executor": "Run",
@@ -146,7 +142,7 @@
       <recent name="Bank" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EnumTypes">
+  <component name="RunManager" selected="Application.EnumTypes (1)">
     <configuration name="AddDigNum" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddDigNum" />
       <module name="JavaPractice" />
@@ -154,8 +150,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoundedTypeParameters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.BoundedTypeParameters" />
+    <configuration name="DeCodeEnCode" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DeCodeEnCode" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumTypes (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.EnumTypes" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
@@ -167,9 +170,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeCodeEnCode" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeCodeEnCode" />
+    <configuration name="EnumTypes (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.EnumTypes" />
       <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumTypes (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.EnumTypes" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumTypes (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.EnumTypes" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,28 +238,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ordinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Ordinary" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RearrangeArrEleByPosAndNeg" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RearrangeArrEleByPosAndNeg" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseVowelString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseVowelString" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -237,19 +252,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generics.Test" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.AddDigNum" />
       <item itemvalue="Application.DeCodeEnCode" />
@@ -257,19 +259,19 @@
       <item itemvalue="Application.IntegerToRoman" />
       <item itemvalue="Application.RearrangeArrEleByPosAndNeg" />
       <item itemvalue="Application.SumeetNumber" />
-      <item itemvalue="Application.BoundedTypeParameters" />
+      <item itemvalue="Application.EnumTypes (1)" />
+      <item itemvalue="Application.EnumTypes (3)" />
+      <item itemvalue="Application.EnumTypes (4)" />
+      <item itemvalue="Application.EnumTypes (5)" />
       <item itemvalue="Application.EnumTypes" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Ordinary" />
-      <item itemvalue="Application.ReverseVowelString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnumTypes (1)" />
         <item itemvalue="Application.EnumTypes" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.BoundedTypeParameters" />
-        <item itemvalue="Application.Ordinary" />
-        <item itemvalue="Application.ReverseVowelString" />
+        <item itemvalue="Application.EnumTypes (5)" />
+        <item itemvalue="Application.EnumTypes (4)" />
+        <item itemvalue="Application.EnumTypes (3)" />
       </list>
     </recent_temporary>
   </component>
